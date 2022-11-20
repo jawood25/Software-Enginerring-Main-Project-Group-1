@@ -11,7 +11,7 @@ url = "https://api.github.com/repos/microsoft/pxt-arcade/commits"
 
 # including parameters as the name of the author who made a commit is in a section called sha, and the author name
 # is all we want
-params = {"q": "sha/commit/author"}
+params = {"q": "sha"}
 response = requests.get(url, params)
 byteStream = response.content
 
@@ -22,15 +22,34 @@ if response.status_code == 200:
 
 listOfContributors = {}
 listOfContributorsWithCount = {}
+listOfActionsPerCommit={}
+listOfCommitID=[]
+
 
 for item in data:
-    commit = item["commit"][
-        "author"]  # commit is the variable name for the line in the data that shows the author's name
-    authorName = commit["name"]
+    ## creates list of ID's for each commit made
+    commitHeader=item["sha"]
+    listOfCommitID.append(commitHeader)
+    commiter = item["commit"]["author"]  # commit is the variable name for the line in the data that shows the author's name
+    authorName = commiter["name"]
     listOfContributors[authorName] = authorName
     listOfContributorsWithCount[authorName] = listOfContributorsWithCount[
                                                   authorName] + 1 if authorName in listOfContributorsWithCount.keys() else 1
 
+for commitMade in listOfCommitID:
+    newURL = url +'/'+ commitMade
+    response= requests.get(newURL)
+    data2 = json.loads(response.content)
+    nameOfCommitter = data2['commit']['author']
+    nameCommiter=nameOfCommitter['name']
+    totalChanges=data2["stats"]["total"]
+    totalAdditions=data2["stats"]["additions"]
+    totalDeletions=data2["stats"]["deletions"]
+    listOfActionsPerCommit[nameCommiter]= totalChanges + totalAdditions + totalDeletions
+
+
+print(listOfCommitID)
+#print(listOfActionsPerCommit)
 print(listOfContributors)
 print(listOfContributorsWithCount)
 with open(f'{JSON_FILE_PATH}.json', 'w') as f:

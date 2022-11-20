@@ -8,16 +8,24 @@ JSON_FILE_PATH = "./myData"
 #user = input('Please input the user name')
 #repo = input('Please input the repo name')
 user = 'microsoft'
-repo = 'Docker-Provider'
+repo = 'ConnectedServicesSdkSamples'
 url = f"https://api.github.com/repos/{user}/{repo}/"
 
 dict_of_pull_requests = {}
 dict_of_issues = {}
 dict_of_commits = {}
+dict_of_collab_issues = {}
 sha_list = []
 
-headers = {"Authorization" : "Token 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", "Accept": "application/vnd.github+json"}
+# headers = {"Authorization" : "token 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"}
+with open("token", 'r') as f:
+    token = f.read()
+    print(token)
 
+headers = {
+    'Accept': 'application/vnd.github+json',
+    'Authorization': f'Bearer {token}',
+}
 
 def commits(url):
     commits_url = url + "commits?per_page=100&direction=asc&page="
@@ -94,6 +102,26 @@ def issues(url):
         response = requests.get(issues_url + str(page), headers=headers)
     #print(dict_of_issues)
 
+def collaberatedIssues(url):
+    collabIssues = url + "issues?state=all&per_page=100&direction=asc&page="
+    page = 1
+    response = requests.get(collabIssues + str(page), headers=headers)
+    index=0
+    while response.json():
+        data = response.json()
+        for item in data:
+            issueTitle = item['title']
+            personIssuer = item['user']['login']
+            personAssigned =item['assignee']
+            if personAssigned is not None:
+                personAssigned=personAssigned['login']
+            index +=1   #issue number
+            dict_of_collab_issues[index] = {'Title of issue': issueTitle, 'author of issues ':personIssuer, 'Issue collaberate by ': personAssigned}
+
+        page +=1
+        response = requests.get(collabIssues + str(page), headers=headers)
+
+    print(dict_of_collab_issues)
 
 def write():
     with open(f'{JSON_FILE_PATH}.json', 'w') as file:
@@ -117,8 +145,9 @@ def issue():
 
 
 if __name__ == '__main__':
-    pull_requests(url)
+    #pull_requests(url)
     #issues(url)
+    collaberatedIssues(url)
     #commits(url)
     write()
     #app.run(debug=True)
