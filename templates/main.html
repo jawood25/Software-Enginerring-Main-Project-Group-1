@@ -9,10 +9,20 @@
     <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.js"></script>
+    <style>
+      #sidebar_button {
+        position: fixed;
+        margin-left: 0px;
+        top: 0px;
+      }
+    </style>
+
     <!--<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
     <link rel="stylesheet" type="text/css" href = "{{url_for('static',filename='./styles/style.css')}}" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts-gl/2.0.8/echarts-gl.min.js"></script>
-    -->
+
     <style>
       .container {
         display: grid;
@@ -61,38 +71,36 @@
       }
 
     </style>
+    -->
 
 
   </head>
 
   <body>
-  <!--
-    <div class="container">
-      <div class="bar one">
-        <div>"Commits"</div>
-      </div>
-
-      <div class="bar two">
-        <div>"Contribs"</div>
-      </div>
-
-      <div class="bar three">
-        <div>"Anything"</div>
-      </div>
-
-      <ul class="v-meter">
-        <li><div>5</div></li>
-        <li><div>4</div></li>
-        <li><div>3</div></li>
-        <li><div>2</div></li>
-        <li><div>1</div></li>
-      </ul>
+    <div class="ui sidebar inverted vertical menu">
+      <a class="item">
+        Home
+      </a>
+      <a class="item">
+        Productivity Measurements
+      </a>
+      <a class="item">
+        About
+      </a>
 
     </div>
-    -->
-    <div class="container" style="padding-top: 30px;">
-      <div id="contributor_graph" style="width: 800px; height: 300px;"></div>
+    <div class="pusher">
+      <!-- Site Content !-->
+      <div>
+        <button class="ui blue button" id="sidebar_button">
+          Menu
+        </button>
+      </div>
+      <div class="container" style="padding-top: 30px;">
+        <div id="contributor_graph" style="width: 800px; height: 300px;"></div>
+      </div>
     </div>
+
     <!--<div class="header">
       <div class="inner_header">
         <div class="logo_container">
@@ -101,7 +109,11 @@
       </div>
     </div>
     -->
-
+  <script>
+    $('#sidebar_button').click(function () {
+      $('.ui.sidebar').sidebar('toggle');
+    })
+  </script>
   <script>
     var contributor_chart = echarts.init(document.getElementById('contributor_graph'), 'white', {
       renderer: 'canvas'
