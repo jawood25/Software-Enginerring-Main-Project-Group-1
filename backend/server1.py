@@ -51,7 +51,7 @@ def commits(url):
         if 'files' in data:
             file_dict = {}
             for file in data['files']:
-                filename = file['filename'].split('/')[-1]
+                filename = file['filename']
                 additions = file['additions']
                 deletions = file['deletions']
                 file_dict[filename] = {'additions': additions, 'deletions': deletions}
