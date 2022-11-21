@@ -27,10 +27,10 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: .
-        # file: ./Dockerfile
+          context: ./
+          file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/testimg123:latest
 
-    #  - name: Image digest
-    #   run: echo ${{ steps.docker_build.outputs.digest }}
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
