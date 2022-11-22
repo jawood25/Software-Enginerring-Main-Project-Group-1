@@ -1,0 +1,44 @@
+{
+   "1": {
+      "user:": "SteveLasker",
+      "title:": "As a provider author, I can see how to use custom themes",
+      "state": "open",
+      "create_time:": "2015-06-15T21:39:18Z",
+      "close_time:": null
+   },
+   "2": {
+      "user:": "SteveLasker",
+      "title:": "As a provider author, I can see a sample for using T4 templates",
+      "state": "open",
+      "create_time:": "2015-06-15T22:20:38Z",
+      "close_time:": null
+   },
+   "3": {
+      "user:": "MichaelSimons",
+      "title:": "Provider icons don't look very good in the dark theme",
+      "state": "open",
+      "create_time:": "2015-06-22T22:34:35Z",
+      "close_time:": null
+   },
+   "4": {
+      "user:": "SteveLasker",
+      "title:": "Sample for Configurator differences based on the project type",
+      "state": "open",
+      "create_time:": "2015-06-23T23:30:25Z",
+      "close_time:": null
+   },
+   "5": {
+      "user:": "SteveLasker",
+      "title:": "Passing in a Context to ViewModels breaks XAML Intellisense and WYSIWYG designer features",
+      "state": "open",
+      "create_time:": "2015-06-25T17:58:43Z",
+      "close_time:": null
+   },
+   "6": {
+      "user:": "d0kt0r1",
+      "title:": "Missing VsResourceKeys.ThemedDialogTextBoxStyleKey",
+      "state": "open",
+      "create_time:": "2015-07-25T10:59:35Z",
+      "close_time:": null
+   }
+}
