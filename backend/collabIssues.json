@@ -1,0 +1,37 @@
+{
+   "1": {
+      "Title of issue": "As a provider author, I can see how to use custom themes",
+      "author of issues ": "SteveLasker",
+      "Issue collaberate by ": null
+   },
+   "2": {
+      "Title of issue": "As a provider author, I can see a sample for using T4 templates",
+      "author of issues ": "SteveLasker",
+      "Issue collaberate by ": null
+   },
+   "3": {
+      "Title of issue": "Provider icons don't look very good in the dark theme",
+      "author of issues ": "MichaelSimons",
+      "Issue collaberate by ": null
+   },
+   "4": {
+      "Title of issue": "Sample for Configurator differences based on the project type",
+      "author of issues ": "SteveLasker",
+      "Issue collaberate by ": null
+   },
+   "5": {
+      "Title of issue": "Passing in a Context to ViewModels breaks XAML Intellisense and WYSIWYG designer features",
+      "author of issues ": "SteveLasker",
+      "Issue collaberate by ": "SteveLasker"
+   },
+   "6": {
+      "Title of issue": "Update to Connected Services RTM SDK/NuGet",
+      "author of issues ": "SteveLasker",
+      "Issue collaberate by ": null
+   },
+   "7": {
+      "Title of issue": "Missing VsResourceKeys.ThemedDialogTextBoxStyleKey",
+      "author of issues ": "d0kt0r1",
+      "Issue collaberate by ": null
+   }
+}

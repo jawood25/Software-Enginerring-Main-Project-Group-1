@@ -1,0 +1,1242 @@
+{
+   "1": {
+      "author:": "Steve Lasker",
+      "date:": "2015-07-16T17:07:50Z",
+      "total_change": {
+         "total": 40,
+         "additions": 20,
+         "deletions": 20
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "packages.config": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "SinglePage.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Wizard.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "UpdateSupport.csproj": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "2": {
+      "author:": "Steve Lasker",
+      "date:": "2015-07-15T21:07:09Z",
+      "total_change": {
+         "total": 4,
+         "additions": 2,
+         "deletions": 2
+      },
+      "files": {
+         "Grid.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "SinglePage.csproj": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "3": {
+      "author:": "Steve Lasker",
+      "date:": "2015-07-15T21:05:26Z",
+      "total_change": {
+         "total": 36,
+         "additions": 18,
+         "deletions": 18
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "packages.config": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Wizard.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "UpdateSupport.csproj": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "4": {
+      "author:": "Eric Erhardt",
+      "date:": "2015-04-28T14:37:13Z",
+      "total_change": {
+         "total": 5,
+         "additions": 1,
+         "deletions": 4
+      },
+      "files": {
+         "README.md": {
+            "additions": 1,
+            "deletions": 4
+         }
+      }
+   },
+   "5": {
+      "author:": "eerhardt",
+      "date:": "2015-04-28T14:35:24Z",
+      "total_change": {
+         "total": 0,
+         "additions": 0,
+         "deletions": 0
+      },
+      "files": {
+         "Microsoft.VisualStudio.ConnectedServices.2.0.0-beta.nupkg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.vsix": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Salesforce.VisualStudio.Services.vsix": {
+            "additions": 0,
+            "deletions": 0
+         }
+      }
+   },
+   "6": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-26T08:05:12Z",
+      "total_change": {
+         "total": 22,
+         "additions": 12,
+         "deletions": 10
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 3,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 3,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 3,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "SinglePage.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "Wizard.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "UpdateSupport.csproj": {
+            "additions": 3,
+            "deletions": 1
+         }
+      }
+   },
+   "7": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-26T08:01:06Z",
+      "total_change": {
+         "total": 9,
+         "additions": 0,
+         "deletions": 9
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "SinglePage.csproj": {
+            "additions": 0,
+            "deletions": 1
+         },
+         "Wizard.csproj": {
+            "additions": 0,
+            "deletions": 1
+         }
+      }
+   },
+   "8": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-26T07:49:53Z",
+      "total_change": {
+         "total": 51,
+         "additions": 35,
+         "deletions": 16
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ExtensionIcon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "source.extension.vsixmanifest": {
+            "additions": 1,
+            "deletions": 0
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 4,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 4,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 4,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "SinglePage.csproj": {
+            "additions": 2,
+            "deletions": 4
+         },
+         "Wizard.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "UpdateSupport.csproj": {
+            "additions": 3,
+            "deletions": 1
+         }
+      }
+   },
+   "9": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-26T04:18:36Z",
+      "total_change": {
+         "total": 153,
+         "additions": 75,
+         "deletions": 78
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Handler.cs": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Provider.cs": {
+            "additions": 3,
+            "deletions": 3
+         },
+         "Icon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ProviderIcon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "AddingFiles.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ObjectPicker.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 9,
+            "deletions": 8
+         },
+         "SinglePage.csproj": {
+            "additions": 3,
+            "deletions": 5
+         },
+         "Wizard.csproj": {
+            "additions": 1,
+            "deletions": 3
+         },
+         "UpdateSupport.csproj": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "10": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-15T20:49:51Z",
+      "total_change": {
+         "total": 4,
+         "additions": 2,
+         "deletions": 2
+      },
+      "files": {
+         "README.md": {
+            "additions": 2,
+            "deletions": 2
+         }
+      }
+   },
+   "11": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-15T20:47:31Z",
+      "total_change": {
+         "total": 25,
+         "additions": 4,
+         "deletions": 21
+      },
+      "files": {
+         "README.md": {
+            "additions": 4,
+            "deletions": 21
+         },
+         "Connected Services Extensibility API Contracts.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Connected Services Principles.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ConnectedServiceProviderAuthorMockups.pptx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ConnectedServicesContracts.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Creating a Connected Service Extension.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Grid.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SInglePage.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SelectionUi.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Troubleshooting Visual Studio Extensions and Connected Service Providers.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Wizard.jpg": {
+            "additions": 0,
+            "deletions": 0
+         }
+      }
+   },
+   "12": {
+      "author:": "eerhardt",
+      "date:": "2015-04-13T21:17:17Z",
+      "total_change": {
+         "total": 130,
+         "additions": 67,
+         "deletions": 63
+      },
+      "files": {
+         "Microsoft.VisualStudio.ConnectedServices.2.0.0-beta-5032406.nupkg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.2.0.0-beta.nupkg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "GridAuth.csproj": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "packages.config": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "source.extension.vsixmanifest": {
+            "additions": 2,
+            "deletions": 1
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "AddingFiles.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "ObjectPicker.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 3,
+            "deletions": 1
+         },
+         "Grid.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "SinglePage.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "Wizard.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "UpdateSupport.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "ConnectedServiceSample.csproj": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "13": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-09T06:57:52Z",
+      "total_change": {
+         "total": 329,
+         "additions": 329,
+         "deletions": 0
+      },
+      "files": {
+         "ConnectedServiceSample.sln": {
+            "additions": 22,
+            "deletions": 0
+         },
+         "ConnectedServiceSample.csproj": {
+            "additions": 98,
+            "deletions": 0
+         },
+         "Handler.cs": {
+            "additions": 38,
+            "deletions": 0
+         },
+         "AssemblyInfo.cs": {
+            "additions": 33,
+            "deletions": 0
+         },
+         "Provider.cs": {
+            "additions": 29,
+            "deletions": 0
+         },
+         "ExtensionIcon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ExtensionPreviewImage.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Icon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 42,
+            "deletions": 0
+         },
+         "SinglePageView.xaml": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "SinglePageView.xaml.cs": {
+            "additions": 28,
+            "deletions": 0
+         },
+         "packages.config": {
+            "additions": 4,
+            "deletions": 0
+         },
+         "source.extension.vsixmanifest": {
+            "additions": 20,
+            "deletions": 0
+         }
+      }
+   },
+   "14": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-01T18:07:16Z",
+      "total_change": {
+         "total": 29,
+         "additions": 14,
+         "deletions": 15
+      },
+      "files": {
+         "AuthenticatorView.xaml": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "SinglePageView.xaml": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "15": {
+      "author:": "Steve Lasker",
+      "date:": "2015-04-01T17:26:27Z",
+      "total_change": {
+         "total": 6,
+         "additions": 3,
+         "deletions": 3
+      },
+      "files": {
+         "WizardPage1View.xaml": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "WizardPage2View.xaml": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "WizardPage3View.xaml": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "16": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-25T18:02:35Z",
+      "total_change": {
+         "total": 2,
+         "additions": 1,
+         "deletions": 1
+      },
+      "files": {
+         ".gitignore": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "17": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-25T17:54:28Z",
+      "total_change": {
+         "total": 2,
+         "additions": 1,
+         "deletions": 1
+      },
+      "files": {
+         ".gitignore": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "Microsoft.VisualStudio.ConnectedServices.2.0.0-beta-5032406.nupkg": {
+            "additions": 0,
+            "deletions": 0
+         }
+      }
+   },
+   "18": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-25T17:51:48Z",
+      "total_change": {
+         "total": 1541,
+         "additions": 5,
+         "deletions": 1536
+      },
+      "files": {
+         "Microsoft.VisualStudio.ConnectedServices.XML": {
+            "additions": 0,
+            "deletions": 1531
+         },
+         "Microsoft.VisualStudio.ConnectedServices.dll": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.vsix": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "GridAuth.csproj": {
+            "additions": 2,
+            "deletions": 2
+         },
+         "packages.config": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 2,
+            "deletions": 2
+         }
+      }
+   },
+   "19": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T23:35:05Z",
+      "total_change": {
+         "total": 108,
+         "additions": 89,
+         "deletions": 19
+      },
+      "files": {
+         "GridAuth.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "packages.config": {
+            "additions": 4,
+            "deletions": 0
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "AddingFiles.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "ObjectPicker.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "Grid.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "SinglePage.csproj": {
+            "additions": 5,
+            "deletions": 2
+         },
+         "Wizard.csproj": {
+            "additions": 6,
+            "deletions": 2
+         },
+         "UpdateSupport.csproj": {
+            "additions": 6,
+            "deletions": 3
+         }
+      }
+   },
+   "20": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T23:21:58Z",
+      "total_change": {
+         "total": 38,
+         "additions": 23,
+         "deletions": 15
+      },
+      "files": {
+         "Provider.cs": {
+            "additions": 5,
+            "deletions": 3
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 6,
+            "deletions": 1
+         },
+         "Handler.cs": {
+            "additions": 3,
+            "deletions": 6
+         }
+      }
+   },
+   "21": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T22:55:27Z",
+      "total_change": {
+         "total": 2,
+         "additions": 1,
+         "deletions": 1
+      },
+      "files": {
+         "SinglePageViewModel.cs": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "22": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T22:15:39Z",
+      "total_change": {
+         "total": 39,
+         "additions": 24,
+         "deletions": 15
+      },
+      "files": {
+         "Provider.cs": {
+            "additions": 3,
+            "deletions": 1
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 14,
+            "deletions": 9
+         }
+      }
+   },
+   "23": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T20:47:26Z",
+      "total_change": {
+         "total": 48,
+         "additions": 16,
+         "deletions": 32
+      },
+      "files": {
+         "Handler.cs": {
+            "additions": 2,
+            "deletions": 18
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 4,
+            "deletions": 7
+         },
+         "Provider.cs": {
+            "additions": 0,
+            "deletions": 3
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 10,
+            "deletions": 4
+         }
+      }
+   },
+   "24": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T17:36:49Z",
+      "total_change": {
+         "total": 575,
+         "additions": 574,
+         "deletions": 1
+      },
+      "files": {
+         "ConnectedServiceSamples.sln": {
+            "additions": 7,
+            "deletions": 1
+         },
+         "Handler.cs": {
+            "additions": 39,
+            "deletions": 0
+         },
+         "ProgressIndicators.csproj": {
+            "additions": 143,
+            "deletions": 0
+         },
+         "AssemblyInfo.cs": {
+            "additions": 32,
+            "deletions": 0
+         },
+         "Provider.cs": {
+            "additions": 36,
+            "deletions": 0
+         },
+         "Readme.txt": {
+            "additions": 5,
+            "deletions": 0
+         },
+         "ExtensionIcon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ExtensionPreviewImage.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Icon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 79,
+            "deletions": 0
+         },
+         "InverseBooleanConverter.cs": {
+            "additions": 32,
+            "deletions": 0
+         },
+         "InvertableBooleanToVisibilityConverter.cs": {
+            "additions": 51,
+            "deletions": 0
+         },
+         "SinglePageView.xaml": {
+            "additions": 32,
+            "deletions": 0
+         },
+         "SinglePageView.xaml.cs": {
+            "additions": 25,
+            "deletions": 0
+         },
+         "SpinnerControl.xaml": {
+            "additions": 53,
+            "deletions": 0
+         },
+         "SpinnerControl.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "packages.config": {
+            "additions": 4,
+            "deletions": 0
+         },
+         "source.extension.vsixmanifest": {
+            "additions": 21,
+            "deletions": 0
+         }
+      }
+   },
+   "25": {
+      "author:": "Steve Lasker",
+      "date:": "2015-03-24T22:37:41Z",
+      "total_change": {
+         "total": 0,
+         "additions": 0,
+         "deletions": 0
+      },
+      "files": {
+         "ConnectedServiceProviderAuthorMockups.pptx": {
+            "additions": 0,
+            "deletions": 0
+         }
+      }
+   },
+   "26": {
+      "author:": "eerhardt",
+      "date:": "2015-03-23T21:41:35Z",
+      "total_change": {
+         "total": 25,
+         "additions": 15,
+         "deletions": 10
+      },
+      "files": {
+         "Microsoft.VisualStudio.ConnectedServices.XML": {
+            "additions": 9,
+            "deletions": 4
+         },
+         "Microsoft.VisualStudio.ConnectedServices.dll": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.vsix": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ServiceWizard.cs": {
+            "additions": 3,
+            "deletions": 3
+         },
+         "WizardPage1ViewModel.cs": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "WizardPage2ViewModel.cs": {
+            "additions": 1,
+            "deletions": 1
+         },
+         "WizardPage3ViewModel.cs": {
+            "additions": 1,
+            "deletions": 1
+         }
+      }
+   },
+   "27": {
+      "author:": "msimons1",
+      "date:": "2015-03-20T13:54:26Z",
+      "total_change": {
+         "total": 6306,
+         "additions": 6305,
+         "deletions": 1
+      },
+      "files": {
+         ".gitattributes": {
+            "additions": 63,
+            "deletions": 0
+         },
+         ".gitignore": {
+            "additions": 183,
+            "deletions": 0
+         },
+         "ConnectedServiceSamples.sln": {
+            "additions": 85,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.XML": {
+            "additions": 1526,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.dll": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Microsoft.VisualStudio.ConnectedServices.vsix": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Salesforce.VisualStudio.Services.vsix": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "README.md": {
+            "additions": 37,
+            "deletions": 1
+         },
+         "Connected Services Extensibility API Contracts.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Connected Services Principles.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ConnectedServicesContracts.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Creating a Connected Service Extension.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Grid.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SInglePage.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SelectionUi.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Troubleshooting Visual Studio Extensions and Connected Service Providers.docx": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Wizard.jpg": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "GridAuth.csproj": {
+            "additions": 132,
+            "deletions": 0
+         },
+         "Handler.cs": {
+            "additions": 44,
+            "deletions": 0
+         },
+         "AssemblyInfo.cs": {
+            "additions": 32,
+            "deletions": 0
+         },
+         "Provider.cs": {
+            "additions": 32,
+            "deletions": 0
+         },
+         "ExtensionIcon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "ExtensionPreviewImage.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "Icon.png": {
+            "additions": 0,
+            "deletions": 0
+         },
+         "SampleServiceTemplate.cs": {
+            "additions": 16,
+            "deletions": 0
+         },
+         "AuthenticatorViewModel.cs": {
+            "additions": 13,
+            "deletions": 0
+         },
+         "GridViewModel.cs": {
+            "additions": 156,
+            "deletions": 0
+         },
+         "AuthenticatorView.xaml": {
+            "additions": 11,
+            "deletions": 0
+         },
+         "AuthenticatorView.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "source.extension.vsixmanifest": {
+            "additions": 21,
+            "deletions": 0
+         },
+         "SinglePageAuth.csproj": {
+            "additions": 138,
+            "deletions": 0
+         },
+         "SinglePageViewModel.cs": {
+            "additions": 106,
+            "deletions": 0
+         },
+         "SinglePageView.xaml": {
+            "additions": 40,
+            "deletions": 0
+         },
+         "SinglePageView.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "AddingFiles.csproj": {
+            "additions": 122,
+            "deletions": 0
+         },
+         "Instance.cs": {
+            "additions": 18,
+            "deletions": 0
+         },
+         "ConfigOptions.cs": {
+            "additions": 13,
+            "deletions": 0
+         },
+         "XmlConfigManagement.csproj": {
+            "additions": 129,
+            "deletions": 0
+         },
+         "ObjectPicker.csproj": {
+            "additions": 129,
+            "deletions": 0
+         },
+         "ObjectPickerCategory.cs": {
+            "additions": 84,
+            "deletions": 0
+         },
+         "ObjectPickerItem.cs": {
+            "additions": 103,
+            "deletions": 0
+         },
+         "ObjectPickerObject.cs": {
+            "additions": 53,
+            "deletions": 0
+         },
+         "ObjectPicker.xaml": {
+            "additions": 66,
+            "deletions": 0
+         },
+         "ObjectPicker.xaml.cs": {
+            "additions": 62,
+            "deletions": 0
+         },
+         "VirtualToggleButton.cs": {
+            "additions": 102,
+            "deletions": 0
+         },
+         "Grid.csproj": {
+            "additions": 128,
+            "deletions": 0
+         },
+         "SinglePage.csproj": {
+            "additions": 136,
+            "deletions": 0
+         },
+         "ServiceWizard.cs": {
+            "additions": 22,
+            "deletions": 0
+         },
+         "WizardPage1ViewModel.cs": {
+            "additions": 16,
+            "deletions": 0
+         },
+         "WizardPage2ViewModel.cs": {
+            "additions": 18,
+            "deletions": 0
+         },
+         "WizardPage3ViewModel.cs": {
+            "additions": 18,
+            "deletions": 0
+         },
+         "WizardPage1View.xaml": {
+            "additions": 14,
+            "deletions": 0
+         },
+         "WizardPage1View.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "WizardPage2View.xaml": {
+            "additions": 14,
+            "deletions": 0
+         },
+         "WizardPage2View.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "WizardPage3View.xaml": {
+            "additions": 14,
+            "deletions": 0
+         },
+         "WizardPage3View.xaml.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "Wizard.csproj": {
+            "additions": 146,
+            "deletions": 0
+         },
+         "DesignerData.cs": {
+            "additions": 15,
+            "deletions": 0
+         },
+         "UpdateSupport.csproj": {
+            "additions": 124,
+            "deletions": 0
+         }
+      }
+   },
+   "28": {
+      "author:": "Asir Vedamuthu Selvasingh",
+      "date:": "2015-01-12T19:13:03Z",
+      "total_change": {
+         "total": 204,
+         "additions": 204,
+         "deletions": 0
+      },
+      "files": {
+         "LICENSE": {
+            "additions": 202,
+            "deletions": 0
+         },
+         "README.md": {
+            "additions": 2,
+            "deletions": 0
+         }
+      }
+   }
+}
