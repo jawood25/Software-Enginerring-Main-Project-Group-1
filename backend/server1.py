@@ -6,8 +6,8 @@ app = Flask(__name__)  # creating instance of the flask app
 
 JSON_COLLAB_ISSUES = "./collabIssues"
 JSON_PULL = "./pullRequests"
-JSON_ISSUES = "./issues"
-JSON_COMMITS = "./commits"
+JSON_ISSUES = "backend/issues"
+JSON_COMMITS = "backend/commits"
 JSON_STANDARD = "./standardMetrics"
 
 # user = input('Please input the user name')
@@ -24,9 +24,9 @@ dict_of_standard_metrics = {}
 sha_list = []
 
 # headers = {"Authorization" : "token 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"}
-with open("token", 'r') as f:
+with open("backend/token", 'r') as f:
     token = f.read()
-    print(token)
+    #print(token)
 
 headers = {
     'Accept': 'application/vnd.github+json',
@@ -191,9 +191,9 @@ def issue():
 
 if __name__ == '__main__':
     pull_requests(url)
-    issues(url)
-    collab = collaberatedIssues(url)
-    commits(url)
-    standardMetrics(collab)
-    write()
+    #issues(url)
+    #collab = collaberatedIssues(url)
+    #commits(url)
+    #standardMetrics(collab)
+    #write()
     # app.run(debug=True)
