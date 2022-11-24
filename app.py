@@ -141,6 +141,10 @@ def get_pull_requests_stat_data():
 @app.route("/")
 def home():
     return render_template("home.html")
+
+@app.route("/standard_metrics")
+def standard_metrics():
+    return render_template("standardMetrics.html")
 @app.route("/productivityMeasurements")
 def main():
     return render_template("main.html")
