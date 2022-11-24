@@ -46,6 +46,35 @@ def line_base_issues() -> Line:
     )
     return l
 
+def line_base_pull_requests() -> Line:
+    with open(f'{backend.server1.JSON_PULL}.json', 'r') as f:
+        data = json.loads(f.read())
+        create_times = []
+        open_pull_requests = []
+        closed_pull_requests = []
+        amount_open = 0
+        amount_closed = 0
+
+        for item in data:
+            open_time = data[item]['create_time:']
+            if data[item]['state'] == "open":
+                amount_open += 1
+            create_times.append(open_time)
+            open_pull_requests.append(amount_open)
+            if data[item]['state'] == "closed":
+                amount_closed += 1
+            closed_pull_requests.append(amount_closed)
+
+    l = (
+        Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
+        .add_xaxis(create_times)
+        .add_yaxis("Currently Open Pull Requests", open_pull_requests,
+                   itemstyle_opts=opts.ItemStyleOpts(color="#00FF00"))
+        .add_yaxis("Currently Closed Pull Requests", closed_pull_requests,
+                   itemstyle_opts=opts.ItemStyleOpts(color="#A020F0"))
+    )
+    return l
+
 
 def bar_base_commits() -> Bar:
     with open(f'{backend.server1.JSON_COMMITS}.json', 'r') as f:
@@ -92,6 +121,10 @@ def get_issues_stat_data():
     l = line_base_issues()
     return l.dump_options_with_quotes()
 
+@app.route("/pullRequests")
+def get_pull_requests_stat_data():
+    l = line_base_pull_requests()
+    return l.dump_options_with_quotes()
 
 @app.route("/")
 def main():

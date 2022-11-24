@@ -99,6 +99,7 @@
       <div class="container" style="padding-top: 30px;">
         <div id="contributor_graph" style="width: 800px; height: 300px;"></div>
         <div id="issue_graph" style="width: 800px; height: 300px;"></div>
+        <div id="pull_request_graph" style="width: 800px; height: 300px;"></div>
       </div>
     </div>
 
@@ -124,10 +125,15 @@
       renderer: 'canvas'
     })
 
+    var pull_request_chart = echarts.init(document.getElementById('pull_request_graph'), 'white', {
+      renderer: 'canvas'
+    })
+
     $(
       function () {
         fetchGraphData(contributor_chart, "http://127.0.0.1:5000/contributors");
         fetchGraphData(issue_chart, "http://127.0.0.1:5000/issues");
+        fetchGraphData(pull_request_chart, "http://127.0.0.1:5000/pullRequests");
        }
     );
 

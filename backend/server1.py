@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)  # creating instance of the flask app
 
 JSON_COLLAB_ISSUES = "./collabIssues"
-JSON_PULL = "./pullRequests"
+JSON_PULL = "backend/pullRequests"
 JSON_ISSUES = "backend/issues"
 JSON_COMMITS = "backend/commits"
 JSON_STANDARD = "./standardMetrics"
