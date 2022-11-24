@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Getting Started</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge, chrome=1" />
+    <meta name = "viewport" content="width=device-width", initial-scale=1.0 />
+
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.js"></script>
+    <style>
+      #sidebar_button {
+        position: fixed;
+        margin-left: 0px;
+        top: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="ui sidebar inverted vertical menu">
+      <a class="item", href="/">
+        Home
+      </a>
+      <a class="item", href="/productivityMeasurements">
+        Productivity Measurements
+      </a>
+      <a class="item", href="/about">
+        About
+      </a>
+
+    </div>
+    <div class="pusher">
+      <!-- Site Content !-->
+      <div>
+        <button class="ui blue button" id="sidebar_button">
+          Menu
+        </button>
+      </div>
+      <div class="container" style="padding-top: 30px;">
+        <div id="contributor_graph" style="width: 800px; height: 300px;"></div>
+        <div id="issue_graph" style="width: 800px; height: 300px;"></div>
+        <div id="pull_request_graph" style="width: 800px; height: 300px;"></div>
+      </div>
+    </div>
+
+  <script>
+    $('#sidebar_button').click(function () {
+      $('.ui.sidebar').sidebar('toggle');
+    })
+  </script>
+
+
+  </body>
+</html>

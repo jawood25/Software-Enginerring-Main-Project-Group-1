@@ -126,9 +126,17 @@ def get_pull_requests_stat_data():
     l = line_base_pull_requests()
     return l.dump_options_with_quotes()
 
+
 @app.route("/")
+def home():
+    return render_template("home.html")
+@app.route("/productivityMeasurements")
 def main():
     return render_template("main.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 
 if __name__ == "__main__":
