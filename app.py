@@ -22,6 +22,8 @@ def line_base_issues() -> Line:
         create_times = []
         open_issues = []
         amount_open = 0
+        closed_issues = []
+        amount_closed = 0
 
         for item in data:
             open_time = data[item]['create_time:']
@@ -29,12 +31,17 @@ def line_base_issues() -> Line:
                 amount_open += 1
             create_times.append(open_time)
             open_issues.append(amount_open)
+            if data[item]['state'] == "closed":
+                amount_closed += 1
+            closed_issues.append(amount_closed)
 
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(create_times)
         .add_yaxis("Currently Open Issues", open_issues,
                    itemstyle_opts=opts.ItemStyleOpts(color="#0000FF"))
+        .add_yaxis("Currently Closed Issues", closed_issues,
+                   itemstyle_opts=opts.ItemStyleOpts(color="#FF0000"))
 
     )
     return l
