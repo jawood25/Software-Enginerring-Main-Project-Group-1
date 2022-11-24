@@ -24,23 +24,29 @@ def line_base_issues() -> Line:
         amount_open = 0
         closed_issues = []
         amount_closed = 0
+        previous_time = ""
 
         for item in data:
-            open_time = data[item]['create_time:']
-            if data[item]['state'] == "open":
-                amount_open += 1
-            create_times.append(open_time)
-            open_issues.append(amount_open)
-            if data[item]['state'] == "closed":
-                amount_closed += 1
-            closed_issues.append(amount_closed)
+            open_time = data[item]['create_time:'][0:10]
+            if open_time != previous_time:
+                previous_time = open_time
+                if data[item]['state'] == "open":
+                    amount_open += 1
+
+                if data[item]['state'] == "closed":
+                    amount_closed += 1
+
+                open_issues.append(amount_open)
+                closed_issues.append(amount_closed)
+                create_times.append(open_time)
+
 
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(create_times)
-        .add_yaxis("Currently Open Issues", open_issues,
+        .add_yaxis("Currently Open Issues", open_issues, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#0000FF"))
-        .add_yaxis("Currently Closed Issues", closed_issues,
+        .add_yaxis("Currently Closed Issues", closed_issues, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#FF0000"))
 
     )
@@ -54,23 +60,28 @@ def line_base_pull_requests() -> Line:
         closed_pull_requests = []
         amount_open = 0
         amount_closed = 0
+        previous_time = ""
 
         for item in data:
-            open_time = data[item]['create_time:']
-            if data[item]['state'] == "open":
-                amount_open += 1
-            create_times.append(open_time)
-            open_pull_requests.append(amount_open)
-            if data[item]['state'] == "closed":
-                amount_closed += 1
-            closed_pull_requests.append(amount_closed)
+            open_time = data[item]['create_time:'][0:10]
+            if open_time != previous_time:
+                previous_time = open_time
+                if data[item]['state'] == "open":
+                    amount_open += 1
+
+                if data[item]['state'] == "closed":
+                    amount_closed += 1
+
+                open_pull_requests.append(amount_open)
+                closed_pull_requests.append(amount_closed)
+                create_times.append(open_time)
 
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(create_times)
-        .add_yaxis("Currently Open Pull Requests", open_pull_requests,
+        .add_yaxis("Currently Open Pull Requests", open_pull_requests, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#00FF00"))
-        .add_yaxis("Currently Closed Pull Requests", closed_pull_requests,
+        .add_yaxis("Currently Closed Pull Requests", closed_pull_requests, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#A020F0"))
     )
     return l
