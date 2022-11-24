@@ -12,8 +12,8 @@ JSON_STANDARD = "./standardMetrics"
 
 # user = input('Please input the user name')
 # repo = input('Please input the repo name')
-user = 'microsoft'
-repo = 'ConnectedServicesSdkSamples'
+user = 'google'
+repo = 'material-design-icons'
 url = f"https://api.github.com/repos/{user}/{repo}/"
 
 dict_of_pull_requests = {}
@@ -26,7 +26,6 @@ sha_list = []
 # headers = {"Authorization" : "token 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"}
 with open("token", 'r') as f:
     token = f.read()
-    print(token)
 
 headers = {
     'Accept': 'application/vnd.github+json',
@@ -167,33 +166,18 @@ def write():
     with open(f'{JSON_ISSUES}.json', 'w') as file:
         json.dump(dict_of_issues, file, indent=3)
 
-    with open(f'{JSON_COMMITS}.json', 'w') as file:
-        json.dump(dict_of_commits, file, indent=3)
+    #with open(f'{JSON_COMMITS}.json', 'w') as file:
+    #    json.dump(dict_of_commits, file, indent=3)
 
     with open(f'{JSON_STANDARD}.json', 'w') as file:
         json.dump(dict_of_standard_metrics, file, indent=3)
-
-
-@app.route("/commit")
-def commit():
-    return dict_of_commits
-
-
-@app.route("/PR")
-def PR():
-    return dict_of_pull_requests
-
-
-@app.route("/issue")
-def issue():
-    return dict_of_issues
 
 
 if __name__ == '__main__':
     pull_requests(url)
     issues(url)
     collab = collaberatedIssues(url)
-    commits(url)
+    #commits(url)
     standardMetrics(collab)
     write()
     # app.run(debug=True)
