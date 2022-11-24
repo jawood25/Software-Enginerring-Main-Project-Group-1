@@ -1,9 +1,996 @@
 {
    "1": {
-      "user:": "SteveLasker",
-      "comment:": "Update to Connected Services RTM SDK/NuGet",
+      "user:": "Shipow",
+      "comment:": "This shape should be removed, isn't it?",
       "state": "closed",
-      "create_time:": "2015-07-16T17:07:41Z",
-      "close_time:": "2015-07-16T17:07:50Z"
+      "create_time:": "2014-10-17T21:16:16Z",
+      "close_time:": "2014-10-22T15:32:06Z"
+   },
+   "2": {
+      "user:": "sudheesh001",
+      "comment:": "Fixes Bug #9 Fixes filenames for the icons which are wrongly named in editor",
+      "state": "closed",
+      "create_time:": "2014-10-19T11:55:05Z",
+      "close_time:": "2014-10-22T15:32:50Z"
+   },
+   "3": {
+      "user:": "j9t",
+      "comment:": "Basic Code Improvements",
+      "state": "closed",
+      "create_time:": "2014-10-23T12:08:16Z",
+      "close_time:": "2015-06-02T03:37:38Z"
+   },
+   "4": {
+      "user:": "TurkeyFried",
+      "comment:": "Added composer.json",
+      "state": "closed",
+      "create_time:": "2014-10-23T17:00:23Z",
+      "close_time:": "2014-10-24T10:23:20Z"
+   },
+   "5": {
+      "user:": "jakesylvestre",
+      "comment:": "Gramatical fix",
+      "state": "closed",
+      "create_time:": "2014-10-24T00:19:09Z",
+      "close_time:": "2014-10-27T15:03:57Z"
+   },
+   "6": {
+      "user:": "Ellorah",
+      "comment:": "Merge pull request #1 from google/master",
+      "state": "closed",
+      "create_time:": "2014-10-28T13:56:16Z",
+      "close_time:": "2014-11-04T14:31:02Z"
+   },
+   "7": {
+      "user:": "niedzielski",
+      "comment:": "Fix typo :)",
+      "state": "closed",
+      "create_time:": "2014-11-29T04:01:11Z",
+      "close_time:": "2014-11-29T19:35:39Z"
+   },
+   "8": {
+      "user:": "gabrielduque",
+      "comment:": "Update bower.json",
+      "state": "closed",
+      "create_time:": "2015-02-26T02:32:46Z",
+      "close_time:": "2015-11-23T21:24:30Z"
+   },
+   "9": {
+      "user:": "stryju",
+      "comment:": "added inline svg sprites",
+      "state": "closed",
+      "create_time:": "2015-04-15T09:54:47Z",
+      "close_time:": "2015-06-02T03:36:59Z"
+   },
+   "10": {
+      "user:": "liquidx",
+      "comment:": "Split spritesheet documentation and minor copy edits",
+      "state": "closed",
+      "create_time:": "2015-05-26T15:07:37Z",
+      "close_time:": "2015-05-26T18:03:39Z"
+   },
+   "11": {
+      "user:": "devesh",
+      "comment:": "Fix displayed HTML.",
+      "state": "closed",
+      "create_time:": "2015-05-30T15:54:11Z",
+      "close_time:": "2015-05-31T01:15:52Z"
+   },
+   "12": {
+      "user:": "danielhusar",
+      "comment:": "Fix small issue in index.html",
+      "state": "closed",
+      "create_time:": "2015-05-30T18:20:17Z",
+      "close_time:": "2015-05-30T18:57:51Z"
+   },
+   "13": {
+      "user:": "curthard89",
+      "comment:": "Added Iconjar mapping file script",
+      "state": "closed",
+      "create_time:": "2015-06-02T07:17:10Z",
+      "close_time:": "2015-06-02T13:33:16Z"
+   },
+   "14": {
+      "user:": "sneakyscott",
+      "comment:": "Googlebot test",
+      "state": "closed",
+      "create_time:": "2015-06-02T13:28:30Z",
+      "close_time:": "2015-06-02T13:30:19Z"
+   },
+   "15": {
+      "user:": "sneakyscott",
+      "comment:": "Googlebot test",
+      "state": "closed",
+      "create_time:": "2015-06-02T13:30:23Z",
+      "close_time:": "2015-06-02T13:30:36Z"
+   },
+   "16": {
+      "user:": "curthard89",
+      "comment:": "Added Iconjar mapping file script",
+      "state": "closed",
+      "create_time:": "2015-06-02T13:45:03Z",
+      "close_time:": "2015-06-02T16:28:39Z"
+   },
+   "17": {
+      "user:": "curthard89",
+      "comment:": "Added IconJar mapping file",
+      "state": "closed",
+      "create_time:": "2015-06-02T16:35:23Z",
+      "close_time:": "2015-06-04T19:42:39Z"
+   },
+   "18": {
+      "user:": "kkirsche",
+      "comment:": "Remove moot `version` property from bower.json",
+      "state": "closed",
+      "create_time:": "2015-06-10T22:24:31Z",
+      "close_time:": "2015-08-21T09:51:59Z"
+   },
+   "19": {
+      "user:": "linyuekai",
+      "comment:": "Update index.html",
+      "state": "closed",
+      "create_time:": "2015-06-22T10:48:57Z",
+      "close_time:": "2015-06-22T14:50:27Z"
+   },
+   "20": {
+      "user:": "fotvoren",
+      "comment:": "Update index.html",
+      "state": "closed",
+      "create_time:": "2015-06-27T18:35:03Z",
+      "close_time:": "2015-06-27T18:43:04Z"
+   },
+   "21": {
+      "user:": "PGA68",
+      "comment:": "Create font-material.css",
+      "state": "closed",
+      "create_time:": "2015-06-28T05:43:51Z",
+      "close_time:": "2015-11-05T16:18:17Z"
+   },
+   "22": {
+      "user:": "otomeskhy",
+      "comment:": "Added CSS file for Icon Font & modified bower.json",
+      "state": "closed",
+      "create_time:": "2015-10-11T07:04:09Z",
+      "close_time:": "2015-11-23T21:39:31Z"
+   },
+   "23": {
+      "user:": "jpc-ae",
+      "comment:": "Adding Symbol Map File",
+      "state": "closed",
+      "create_time:": "2015-10-22T12:25:38Z",
+      "close_time:": "2015-11-19T16:15:31Z"
+   },
+   "24": {
+      "user:": "shyndman",
+      "comment:": "2.1.0 update",
+      "state": "closed",
+      "create_time:": "2015-11-17T21:42:43Z",
+      "close_time:": "2015-11-17T21:43:55Z"
+   },
+   "25": {
+      "user:": "jpc-ae",
+      "comment:": "SVG symbol sprite documentation & cleanup",
+      "state": "closed",
+      "create_time:": "2015-11-19T23:26:06Z",
+      "close_time:": "2015-11-23T21:23:36Z"
+   },
+   "26": {
+      "user:": "verpixelt",
+      "comment:": "Replace // with /**/ \u2013 issue #249",
+      "state": "closed",
+      "create_time:": "2015-11-26T09:18:20Z",
+      "close_time:": "2016-02-23T20:48:03Z"
+   },
+   "27": {
+      "user:": "tpapaz",
+      "comment:": "Deleted duplicate unprefixed icons.",
+      "state": "closed",
+      "create_time:": "2015-12-12T10:41:18Z",
+      "close_time:": "2015-12-12T14:34:53Z"
+   },
+   "28": {
+      "user:": "ghost",
+      "comment:": "Remove colored fills from icons.",
+      "state": "closed",
+      "create_time:": "2015-12-18T07:58:19Z",
+      "close_time:": "2016-02-24T00:46:50Z"
+   },
+   "29": {
+      "user:": "appsforartists",
+      "comment:": "Added require('material-design-icons').STATIC_PATH",
+      "state": "closed",
+      "create_time:": "2015-12-30T22:39:45Z",
+      "close_time:": "2015-12-30T22:42:57Z"
+   },
+   "30": {
+      "user:": "grimen",
+      "comment:": "added SVG font format + gulp build task (TTF to SVG transformation). fixes #149",
+      "state": "closed",
+      "create_time:": "2016-01-05T12:10:19Z",
+      "close_time:": "2016-02-25T21:53:41Z"
+   },
+   "31": {
+      "user:": "vikaspaldev",
+      "comment:": "mat icon",
+      "state": "closed",
+      "create_time:": "2016-01-29T17:25:07Z",
+      "close_time:": "2016-02-23T20:51:02Z"
+   },
+   "32": {
+      "user:": "bromso",
+      "comment:": "Added Sketch files",
+      "state": "closed",
+      "create_time:": "2016-01-30T10:47:00Z",
+      "close_time:": "2021-01-07T12:52:14Z"
+   },
+   "33": {
+      "user:": "shyndman",
+      "comment:": "2.2.0 release -- 41 new icons!",
+      "state": "closed",
+      "create_time:": "2016-02-08T22:09:56Z",
+      "close_time:": "2016-02-09T20:33:45Z"
+   },
+   "34": {
+      "user:": "wubbahed",
+      "comment:": "Added missing Contents.json files to iOS subdirectories",
+      "state": "closed",
+      "create_time:": "2016-02-16T16:26:48Z",
+      "close_time:": "2021-01-07T12:49:18Z"
+   },
+   "35": {
+      "user:": "shyndman",
+      "comment:": "Adds an updated woff2 icon font file.",
+      "state": "closed",
+      "create_time:": "2016-03-10T16:03:40Z",
+      "close_time:": "2016-03-10T16:03:49Z"
+   },
+   "36": {
+      "user:": "chuanzhangjiang",
+      "comment:": "Merge pull request #1 from google/master",
+      "state": "closed",
+      "create_time:": "2016-03-22T08:05:10Z",
+      "close_time:": "2016-03-22T12:51:25Z"
+   },
+   "37": {
+      "user:": "MykytaShulipa",
+      "comment:": "fix typo so navigating via hash should work",
+      "state": "closed",
+      "create_time:": "2016-04-12T11:59:32Z",
+      "close_time:": "2021-01-07T12:50:18Z"
+   },
+   "38": {
+      "user:": "iSimonWeb",
+      "comment:": "Misaligned from artboard",
+      "state": "closed",
+      "create_time:": "2016-05-11T07:51:13Z",
+      "close_time:": "2021-01-07T12:48:13Z"
+   },
+   "39": {
+      "user:": "rhythmus",
+      "comment:": "fixes typo: \"catesian\" \u2192 \"cartesian\"",
+      "state": "closed",
+      "create_time:": "2016-05-11T21:06:14Z",
+      "close_time:": "2021-01-07T12:47:13Z"
+   },
+   "40": {
+      "user:": "bpgregson",
+      "comment:": "add settings_input_serial icon pack",
+      "state": "closed",
+      "create_time:": "2016-05-12T20:37:15Z",
+      "close_time:": "2016-09-01T23:41:52Z"
+   },
+   "41": {
+      "user:": "obskyr",
+      "comment:": "Add missing 24px and 48px SVGs",
+      "state": "closed",
+      "create_time:": "2016-05-18T16:21:10Z",
+      "close_time:": "2021-01-07T12:45:27Z"
+   },
+   "42": {
+      "user:": "miaopeng",
+      "comment:": "Added missing icon category for Gulp file",
+      "state": "closed",
+      "create_time:": "2016-05-31T06:51:06Z",
+      "close_time:": "2016-05-31T07:38:56Z"
+   },
+   "43": {
+      "user:": "miaopeng",
+      "comment:": "Added missing icon category for Gulp file",
+      "state": "closed",
+      "create_time:": "2016-05-31T07:46:34Z",
+      "close_time:": "2016-09-01T23:21:58Z"
+   },
+   "44": {
+      "user:": "nicknorcross",
+      "comment:": "Merge pull request #1 from google/master",
+      "state": "closed",
+      "create_time:": "2016-06-05T02:18:49Z",
+      "close_time:": "2016-06-05T02:21:32Z"
+   },
+   "45": {
+      "user:": "mxl",
+      "comment:": "Exit from app icon.",
+      "state": "closed",
+      "create_time:": "2016-08-18T05:37:02Z",
+      "close_time:": "2016-09-01T23:42:54Z"
+   },
+   "46": {
+      "user:": "marcopashkov",
+      "comment:": "License change to Apache 2.0.",
+      "state": "closed",
+      "create_time:": "2016-08-25T21:03:05Z",
+      "close_time:": "2016-08-25T21:05:03Z"
+   },
+   "47": {
+      "user:": "kiancross",
+      "comment:": "Fixed broken link.",
+      "state": "closed",
+      "create_time:": "2016-08-28T20:20:07Z",
+      "close_time:": "2016-08-28T20:36:27Z"
+   },
+   "48": {
+      "user:": "kiancross",
+      "comment:": "Changed npm URL from npmjs.io to npmjs.com",
+      "state": "closed",
+      "create_time:": "2016-08-28T20:38:46Z",
+      "close_time:": "2016-09-01T23:18:30Z"
+   },
+   "49": {
+      "user:": "astrotars",
+      "comment:": "Updated NPM URL",
+      "state": "closed",
+      "create_time:": "2016-08-30T04:18:59Z",
+      "close_time:": "2016-09-01T23:18:38Z"
+   },
+   "50": {
+      "user:": "marcopashkov",
+      "comment:": "Update license to Apache 2.0 in meta info.",
+      "state": "closed",
+      "create_time:": "2016-09-01T22:36:38Z",
+      "close_time:": "2016-09-01T22:45:51Z"
+   },
+   "51": {
+      "user:": "marcopashkov",
+      "comment:": "License change to Apache 2.0.",
+      "state": "closed",
+      "create_time:": "2016-09-01T22:51:11Z",
+      "close_time:": "2016-09-01T23:10:22Z"
+   },
+   "52": {
+      "user:": "shyndman",
+      "comment:": "Removes doc site files from master.",
+      "state": "closed",
+      "create_time:": "2016-09-01T23:25:21Z",
+      "close_time:": "2016-09-01T23:26:54Z"
+   },
+   "53": {
+      "user:": "shyndman",
+      "comment:": "Adds device symbol sprites.",
+      "state": "closed",
+      "create_time:": "2016-09-01T23:40:43Z",
+      "close_time:": "2016-09-01T23:41:43Z"
+   },
+   "54": {
+      "user:": "marcopashkov",
+      "comment:": "updating version info",
+      "state": "closed",
+      "create_time:": "2016-09-02T00:19:04Z",
+      "close_time:": "2016-09-02T00:29:10Z"
+   },
+   "55": {
+      "user:": "Frewacom",
+      "comment:": "2.2.0",
+      "state": "closed",
+      "create_time:": "2016-09-28T09:58:37Z",
+      "close_time:": "2020-09-01T03:41:45Z"
+   },
+   "56": {
+      "user:": "andyrichardson",
+      "comment:": "Remove redundant paths #490",
+      "state": "closed",
+      "create_time:": "2016-09-28T20:51:51Z",
+      "close_time:": "2020-07-16T12:42:04Z"
+   },
+   "57": {
+      "user:": "CodeVINCI",
+      "comment:": "Not complete/To do later icon",
+      "state": "closed",
+      "create_time:": "2016-10-01T04:18:25Z",
+      "close_time:": "2020-09-01T03:41:46Z"
+   },
+   "58": {
+      "user:": "ptrain377",
+      "comment:": "Version info",
+      "state": "closed",
+      "create_time:": "2016-10-01T11:50:41Z",
+      "close_time:": "2016-10-05T16:59:46Z"
+   },
+   "59": {
+      "user:": "cartej29",
+      "comment:": "Version info",
+      "state": "closed",
+      "create_time:": "2016-10-24T19:39:02Z",
+      "close_time:": "2020-09-01T03:43:25Z"
+   },
+   "60": {
+      "user:": "xekushuna",
+      "comment:": "material-design-icons-iconjar.zip",
+      "state": "closed",
+      "create_time:": "2016-10-27T10:21:51Z",
+      "close_time:": "2016-10-27T14:38:46Z"
+   },
+   "61": {
+      "user:": "briandrum",
+      "comment:": "Fix arrow_downward fill",
+      "state": "closed",
+      "create_time:": "2016-11-04T19:25:11Z",
+      "close_time:": "2016-11-04T19:25:41Z"
+   },
+   "62": {
+      "user:": "briandrum",
+      "comment:": "Remove fill from arrow_downward path",
+      "state": "closed",
+      "create_time:": "2016-11-04T19:32:12Z",
+      "close_time:": "2017-04-28T21:19:02Z"
+   },
+   "63": {
+      "user:": "taro-0",
+      "comment:": "Merge pull request #304 from google/2.2.0",
+      "state": "closed",
+      "create_time:": "2016-11-05T23:33:42Z",
+      "close_time:": "2020-09-01T03:42:16Z"
+   },
+   "64": {
+      "user:": "fuddl",
+      "comment:": "Adding barcode icon",
+      "state": "closed",
+      "create_time:": "2017-03-18T08:28:39Z",
+      "close_time:": "2022-05-12T22:06:17Z"
+   },
+   "65": {
+      "user:": "marcopashkov",
+      "comment:": "test pull request",
+      "state": "closed",
+      "create_time:": "2017-04-04T21:19:44Z",
+      "close_time:": "2017-04-04T21:34:38Z"
+   },
+   "66": {
+      "user:": "marcopashkov",
+      "comment:": "Added \"Icons in RTL\" section to documentation",
+      "state": "closed",
+      "create_time:": "2017-04-05T22:37:25Z",
+      "close_time:": "2017-04-06T05:20:51Z"
+   },
+   "67": {
+      "user:": "mbrickn",
+      "comment:": "Updated links to use https instead of http",
+      "state": "closed",
+      "create_time:": "2017-04-14T05:30:25Z",
+      "close_time:": "2019-03-18T21:30:59Z"
+   },
+   "68": {
+      "user:": "vschs007",
+      "comment:": "updated",
+      "state": "closed",
+      "create_time:": "2017-04-22T12:38:28Z",
+      "close_time:": "2021-01-07T12:37:17Z"
+   },
+   "69": {
+      "user:": "vschs007",
+      "comment:": "updated",
+      "state": "closed",
+      "create_time:": "2017-04-22T12:45:07Z",
+      "close_time:": "2021-01-07T12:37:02Z"
+   },
+   "70": {
+      "user:": "aviau",
+      "comment:": "README: remove confusing re-sell requirement",
+      "state": "closed",
+      "create_time:": "2017-05-03T18:01:15Z",
+      "close_time:": "2021-06-10T20:23:49Z"
+   },
+   "71": {
+      "user:": "cy19890513",
+      "comment:": "add qr code icon web 1x, web 2x, ios, android hdpi, mdpi, xhdpi, xxhd\u2026",
+      "state": "closed",
+      "create_time:": "2017-05-21T07:12:52Z",
+      "close_time:": "2021-01-07T12:46:26Z"
+   },
+   "72": {
+      "user:": "mbrickn",
+      "comment:": "Updated links",
+      "state": "closed",
+      "create_time:": "2017-06-23T19:35:24Z",
+      "close_time:": "2017-08-21T01:30:33Z"
+   },
+   "73": {
+      "user:": "sdefresne",
+      "comment:": "Add Contents.json for all iOS .imageset directories.",
+      "state": "closed",
+      "create_time:": "2017-06-30T17:55:49Z",
+      "close_time:": "2017-07-12T20:16:25Z"
+   },
+   "74": {
+      "user:": "ziishaned",
+      "comment:": "Fix typo",
+      "state": "closed",
+      "create_time:": "2017-08-06T06:00:31Z",
+      "close_time:": "2018-01-10T11:24:40Z"
+   },
+   "75": {
+      "user:": "gcantoni",
+      "comment:": "License looks better now",
+      "state": "closed",
+      "create_time:": "2017-08-06T09:40:12Z",
+      "close_time:": "2021-01-07T12:36:45Z"
+   },
+   "76": {
+      "user:": "d4rky-pl",
+      "comment:": "Update docs to include --save in npm install",
+      "state": "closed",
+      "create_time:": "2017-08-08T09:38:08Z",
+      "close_time:": "2021-01-07T12:35:27Z"
+   },
+   "77": {
+      "user:": "iivic",
+      "comment:": "Restricting web icons to one em",
+      "state": "closed",
+      "create_time:": "2017-09-20T11:03:14Z",
+      "close_time:": "2017-12-20T07:55:14Z"
+   },
+   "78": {
+      "user:": "Steepo",
+      "comment:": "Reminder icon?",
+      "state": "closed",
+      "create_time:": "2017-10-14T10:08:43Z",
+      "close_time:": "2018-01-11T20:32:59Z"
+   },
+   "79": {
+      "user:": "genome21",
+      "comment:": "Update README.md with grammar changes.",
+      "state": "closed",
+      "create_time:": "2017-10-19T18:28:40Z",
+      "close_time:": "2018-01-11T20:30:40Z"
+   },
+   "80": {
+      "user:": "hebbet",
+      "comment:": "remove extra space",
+      "state": "closed",
+      "create_time:": "2018-02-23T10:59:04Z",
+      "close_time:": "2021-01-07T12:33:49Z"
+   },
+   "81": {
+      "user:": "jul6art",
+      "comment:": "fix \"failed to compile\" error",
+      "state": "closed",
+      "create_time:": "2018-02-23T14:18:41Z",
+      "close_time:": "2021-01-07T12:32:31Z"
+   },
+   "82": {
+      "user:": "codedumper",
+      "comment:": "Add quote for url in iconfont/material-icons.css",
+      "state": "closed",
+      "create_time:": "2018-02-27T00:13:48Z",
+      "close_time:": "2018-02-27T00:25:25Z"
+   },
+   "83": {
+      "user:": "codedumper",
+      "comment:": "Add quote for url in iconfont/material-icons.css ",
+      "state": "closed",
+      "create_time:": "2018-02-27T00:26:36Z",
+      "close_time:": "2018-02-27T00:43:51Z"
+   },
+   "84": {
+      "user:": "codedumper",
+      "comment:": "Add quote for url in iconfont/material-icons.css",
+      "state": "closed",
+      "create_time:": "2018-02-27T00:45:29Z",
+      "close_time:": "2018-02-27T14:46:52Z"
+   },
+   "85": {
+      "user:": "9034725985",
+      "comment:": "add yarnpkg",
+      "state": "closed",
+      "create_time:": "2018-03-24T16:35:34Z",
+      "close_time:": "2021-01-07T12:29:57Z"
+   },
+   "86": {
+      "user:": "goonode",
+      "comment:": "Change sprity/sprity-gm with spritesmith/gmsmith",
+      "state": "closed",
+      "create_time:": "2018-04-24T22:45:46Z",
+      "close_time:": "2021-01-07T12:27:12Z"
+   },
+   "87": {
+      "user:": "ijlee2",
+      "comment:": "Updated the codepoints file",
+      "state": "closed",
+      "create_time:": "2018-07-21T20:52:09Z",
+      "close_time:": "2020-04-08T22:29:03Z"
+   },
+   "88": {
+      "user:": "17nikhil",
+      "comment:": "Update README.md",
+      "state": "closed",
+      "create_time:": "2018-10-04T07:15:34Z",
+      "close_time:": "2021-01-07T12:21:57Z"
+   },
+   "89": {
+      "user:": "bhojaksmith",
+      "comment:": "Fixed alignment issues in Restart icon, find it under Fixed Icons folder",
+      "state": "closed",
+      "create_time:": "2018-10-07T17:42:32Z",
+      "close_time:": "2022-05-13T00:07:18Z"
+   },
+   "90": {
+      "user:": "sarangthrippanikkara",
+      "comment:": "//Comment added",
+      "state": "closed",
+      "create_time:": "2018-10-10T03:43:50Z",
+      "close_time:": "2021-01-07T12:20:12Z"
+   },
+   "91": {
+      "user:": "mvochoa",
+      "comment:": "Add forest icon for svg, ios, android and web",
+      "state": "closed",
+      "create_time:": "2018-10-21T05:18:47Z",
+      "close_time:": "2022-05-13T00:05:44Z"
+   },
+   "92": {
+      "user:": "Pi0up",
+      "comment:": "Update README.md",
+      "state": "closed",
+      "create_time:": "2019-01-07T14:35:58Z",
+      "close_time:": "2019-01-07T14:38:57Z"
+   },
+   "93": {
+      "user:": "Pi0up",
+      "comment:": "Update README.md",
+      "state": "closed",
+      "create_time:": "2019-01-07T14:42:10Z",
+      "close_time:": "2021-01-07T12:13:18Z"
+   },
+   "94": {
+      "user:": "andrey-helldar",
+      "comment:": "Added classes for implementing SEO-optimized icon usage",
+      "state": "closed",
+      "create_time:": "2019-01-10T14:39:29Z",
+      "close_time:": "2022-05-13T02:09:23Z"
+   },
+   "95": {
+      "user:": "sajo13",
+      "comment:": "created",
+      "state": "closed",
+      "create_time:": "2019-02-24T01:25:22Z",
+      "close_time:": "2021-01-07T12:16:30Z"
+   },
+   "96": {
+      "user:": "willtheorangeguy",
+      "comment:": "Ligature Support in Microsoft Edge on Website",
+      "state": "closed",
+      "create_time:": "2019-07-12T22:54:46Z",
+      "close_time:": "2021-01-07T12:10:26Z"
+   },
+   "97": {
+      "user:": "itaditya",
+      "comment:": "React component wrapper over svg icons",
+      "state": "closed",
+      "create_time:": "2019-08-24T11:59:34Z",
+      "close_time:": "2021-01-07T12:53:47Z"
+   },
+   "98": {
+      "user:": "Priyanshu2001",
+      "comment:": "Small mistakes",
+      "state": "closed",
+      "create_time:": "2019-10-29T09:33:59Z",
+      "close_time:": "2020-12-22T18:15:06Z"
+   },
+   "99": {
+      "user:": "dependabot[bot]",
+      "comment:": "Bump lodash from 3.10.1 to 4.17.15",
+      "state": "closed",
+      "create_time:": "2019-11-01T14:14:21Z",
+      "close_time:": "2020-07-15T19:42:52Z"
+   },
+   "100": {
+      "user:": "yne",
+      "comment:": "Swap compact and comfy icons",
+      "state": "closed",
+      "create_time:": "2020-01-24T21:59:27Z",
+      "close_time:": "2022-03-10T20:06:52Z"
+   },
+   "101": {
+      "user:": "ayush-mahawar26",
+      "comment:": "Update Contents.json",
+      "state": "closed",
+      "create_time:": "2020-06-15T17:18:07Z",
+      "close_time:": "2020-06-18T05:27:58Z"
+   },
+   "102": {
+      "user:": "rsheeter",
+      "comment:": "Add survey request",
+      "state": "closed",
+      "create_time:": "2020-06-23T23:35:04Z",
+      "close_time:": "2020-06-23T23:40:40Z"
+   },
+   "103": {
+      "user:": "dependabot[bot]",
+      "comment:": "Bump lodash from 3.10.1 to 4.17.19",
+      "state": "closed",
+      "create_time:": "2020-07-15T19:42:48Z",
+      "close_time:": "2021-01-07T12:54:13Z"
+   },
+   "104": {
+      "user:": "Gallimathias",
+      "comment:": "Activate Apache license",
+      "state": "closed",
+      "create_time:": "2020-07-16T11:54:13Z",
+      "close_time:": "2021-01-05T10:40:10Z"
+   },
+   "105": {
+      "user:": "rsheeter",
+      "comment:": "Restructure and update",
+      "state": "closed",
+      "create_time:": "2020-08-18T02:35:17Z",
+      "close_time:": "2020-08-20T04:34:18Z"
+   },
+   "106": {
+      "user:": "rsheeter",
+      "comment:": "Generate codepoint files during update. Do an update.",
+      "state": "closed",
+      "create_time:": "2020-08-31T21:20:25Z",
+      "close_time:": "2020-08-31T21:37:08Z"
+   },
+   "107": {
+      "user:": "boyarzun",
+      "comment:": "Fixed: Broken self-hosted link",
+      "state": "closed",
+      "create_time:": "2020-09-10T23:03:07Z",
+      "close_time:": "2021-01-07T12:06:36Z"
+   },
+   "108": {
+      "user:": "adam-devel",
+      "comment:": "Added the \"Two Tone\" variant",
+      "state": "closed",
+      "create_time:": "2020-10-29T20:36:57Z",
+      "close_time:": "2021-01-07T12:15:32Z"
+   },
+   "109": {
+      "user:": "RoelN",
+      "comment:": "Use <span> instead of <i> for icon HTML element",
+      "state": "closed",
+      "create_time:": "2021-01-25T16:05:45Z",
+      "close_time:": "2021-02-02T14:23:28Z"
+   },
+   "110": {
+      "user:": "AtosNicoS",
+      "comment:": "Remove duplicate star_outline codepoint",
+      "state": "closed",
+      "create_time:": "2021-03-15T09:11:11Z",
+      "close_time:": "2022-04-24T21:45:25Z"
+   },
+   "111": {
+      "user:": "PassionPenguin",
+      "comment:": "Update outdated link",
+      "state": "closed",
+      "create_time:": "2021-03-26T17:51:06Z",
+      "close_time:": "2022-05-04T00:43:11Z"
+   },
+   "112": {
+      "user:": "ahmedalejo",
+      "comment:": "Removed duplicate star_outline entry",
+      "state": "closed",
+      "create_time:": "2021-04-30T11:28:14Z",
+      "close_time:": "2022-05-12T22:45:39Z"
+   },
+   "113": {
+      "user:": "syedaasim033",
+      "comment:": "I have added the README.md",
+      "state": "closed",
+      "create_time:": "2021-08-10T16:43:11Z",
+      "close_time:": "2022-05-12T23:06:25Z"
+   },
+   "114": {
+      "user:": "darkRaspberry",
+      "comment:": "Flourescent -> fluorescent",
+      "state": "closed",
+      "create_time:": "2021-08-20T08:56:36Z",
+      "close_time:": "2022-05-02T15:31:49Z"
+   },
+   "115": {
+      "user:": "adityadees",
+      "comment:": "update broken link",
+      "state": "closed",
+      "create_time:": "2021-08-23T04:00:48Z",
+      "close_time:": "2022-05-12T23:02:49Z"
+   },
+   "116": {
+      "user:": "MrTechHunter",
+      "comment:": "Adding weight in kilograms icon",
+      "state": "closed",
+      "create_time:": "2021-10-03T15:49:22Z",
+      "close_time:": "2021-10-05T14:27:09Z"
+   },
+   "117": {
+      "user:": "MrTechHunter",
+      "comment:": "Adding weight-kg icon",
+      "state": "closed",
+      "create_time:": "2021-10-05T14:32:32Z",
+      "close_time:": "2021-10-05T14:43:19Z"
+   },
+   "118": {
+      "user:": "MrTechHunter",
+      "comment:": "Adding weight and weight_kg icons",
+      "state": "closed",
+      "create_time:": "2021-10-05T15:16:23Z",
+      "close_time:": "2022-05-13T00:01:56Z"
+   },
+   "119": {
+      "user:": "ghost",
+      "comment:": "license change to gplv3",
+      "state": "closed",
+      "create_time:": "2021-11-03T06:47:00Z",
+      "close_time:": "2022-04-24T21:48:51Z"
+   },
+   "120": {
+      "user:": "brkcvn",
+      "comment:": "Added icons",
+      "state": "closed",
+      "create_time:": "2022-01-24T13:22:22Z",
+      "close_time:": "2022-05-03T23:47:45Z"
+   },
+   "121": {
+      "user:": "AdhyWiranto44",
+      "comment:": "fix: unnecessary word",
+      "state": "closed",
+      "create_time:": "2022-01-27T11:23:41Z",
+      "close_time:": "2022-01-27T11:25:30Z"
+   },
+   "122": {
+      "user:": "AdhyWiranto44",
+      "comment:": "fix: unnecessary word",
+      "state": "closed",
+      "create_time:": "2022-01-27T11:25:58Z",
+      "close_time:": "2022-01-31T03:37:07Z"
+   },
+   "123": {
+      "user:": "RupakBiswas-2304",
+      "comment:": "foot logo added",
+      "state": "closed",
+      "create_time:": "2022-02-18T18:03:42Z",
+      "close_time:": "2022-05-12T21:55:47Z"
+   },
+   "124": {
+      "user:": "aasim-syed",
+      "comment:": "Improved README.md",
+      "state": "closed",
+      "create_time:": "2022-03-11T14:10:31Z",
+      "close_time:": "2022-05-04T00:31:17Z"
+   },
+   "125": {
+      "user:": "Dario36",
+      "comment:": "Fixed sim card icons",
+      "state": "closed",
+      "create_time:": "2022-03-16T13:54:06Z",
+      "close_time:": "2022-05-12T21:47:26Z"
+   },
+   "126": {
+      "user:": "sclassen",
+      "comment:": "Remove links to sprites directory",
+      "state": "closed",
+      "create_time:": "2022-03-28T21:53:19Z",
+      "close_time:": "2022-05-12T23:04:35Z"
+   },
+   "127": {
+      "user:": "inclusive-coding-bot",
+      "comment:": "Switch to gender neutral terms",
+      "state": "closed",
+      "create_time:": "2022-03-31T11:37:26Z",
+      "close_time:": "2022-03-31T16:39:48Z"
+   },
+   "128": {
+      "user:": "Lancelot03",
+      "comment:": "Rephrase sentence",
+      "state": "closed",
+      "create_time:": "2022-04-13T16:53:05Z",
+      "close_time:": "2022-05-12T21:40:46Z"
+   },
+   "129": {
+      "user:": "EsoFromTheEast",
+      "comment:": "Add MaterialSymbols VFs",
+      "state": "closed",
+      "create_time:": "2022-04-21T18:38:33Z",
+      "close_time:": "2022-04-21T18:38:54Z"
+   },
+   "130": {
+      "user:": "EsoFromTheEast",
+      "comment:": "Update MaterialIcons fonts",
+      "state": "closed",
+      "create_time:": "2022-04-21T23:16:55Z",
+      "close_time:": "2022-04-21T23:17:20Z"
+   },
+   "131": {
+      "user:": "tandy1212",
+      "comment:": "Create tableau",
+      "state": "closed",
+      "create_time:": "2022-04-28T20:43:05Z",
+      "close_time:": "2022-04-28T20:52:03Z"
+   },
+   "132": {
+      "user:": "EinsteinGanesh",
+      "comment:": "created a new file man",
+      "state": "closed",
+      "create_time:": "2022-05-19T11:06:59Z",
+      "close_time:": "2022-05-19T22:53:37Z"
+   },
+   "133": {
+      "user:": "nathan-williams",
+      "comment:": "Redirect to Icons Guide on developers.google.com",
+      "state": "closed",
+      "create_time:": "2022-06-02T20:02:38Z",
+      "close_time:": "2022-06-02T20:03:21Z"
+   },
+   "134": {
+      "user:": "cyberdev101",
+      "comment:": "Remove Default Size",
+      "state": "closed",
+      "create_time:": "2022-06-12T03:11:01Z",
+      "close_time:": "2022-06-12T03:11:47Z"
+   },
+   "135": {
+      "user:": "EsoFromTheEast",
+      "comment:": "Update icons",
+      "state": "closed",
+      "create_time:": "2022-07-07T22:35:46Z",
+      "close_time:": "2022-07-07T22:36:12Z"
+   },
+   "136": {
+      "user:": "Tam5142",
+      "comment:": "Google Icons Suggestions",
+      "state": "open",
+      "create_time:": "2022-07-10T02:30:41Z",
+      "close_time:": null
+   },
+   "137": {
+      "user:": "abd-ar",
+      "comment:": "Test",
+      "state": "closed",
+      "create_time:": "2022-07-26T12:29:55Z",
+      "close_time:": "2022-07-26T12:30:10Z"
+   },
+   "138": {
+      "user:": "win0err",
+      "comment:": "Add @cloudblueconnect/material-svg NPM package",
+      "state": "open",
+      "create_time:": "2022-07-27T12:43:38Z",
+      "close_time:": null
+   },
+   "139": {
+      "user:": "schmelto",
+      "comment:": "docs: update sentence structure",
+      "state": "closed",
+      "create_time:": "2022-08-17T12:43:17Z",
+      "close_time:": "2022-10-29T01:33:20Z"
+   },
+   "140": {
+      "user:": "ibrahimmemonn",
+      "comment:": "Create Testing",
+      "state": "closed",
+      "create_time:": "2022-10-19T11:09:02Z",
+      "close_time:": "2022-10-19T15:42:24Z"
+   },
+   "141": {
+      "user:": "ibrahimmemonn",
+      "comment:": "Create Test",
+      "state": "closed",
+      "create_time:": "2022-10-19T11:12:18Z",
+      "close_time:": "2022-10-30T23:43:57Z"
+   },
+   "142": {
+      "user:": "Thakor-Yashpal",
+      "comment:": "new",
+      "state": "closed",
+      "create_time:": "2022-11-10T20:37:09Z",
+      "close_time:": "2022-11-11T16:34:02Z"
    }
 }
