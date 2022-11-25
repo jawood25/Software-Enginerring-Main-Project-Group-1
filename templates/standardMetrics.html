@@ -28,11 +28,17 @@
       <a class="item", href="/standard_metrics">
         Standard Metrics
       </a>
-      <a class="item", href="/productivityMeasurements">
+      <a class="item", href="/productivity_measurements">
         Productivity Measurements
       </a>
       <a class="item", href="/about">
         About
+      </a>
+      <a class="item", href="https://youtu.be/NdfTibIR6XY">
+         Video Demo
+      </a>
+      <a class="item" href="https://github.com/jawood25/Software-Enginerring-Main-Project-Group-1">
+        Github Repository
       </a>
 
     </div>
@@ -50,12 +56,37 @@
         <h3 class="ui header">Below are metrics that measure basic information about the repository that we sampled
           from. To see our graphs on how we tried to measure productivity, see Productivity Measurements.</h3>
       </div>
+      <div class="container" style="padding-top: 40px; padding-left: 20%">
+        <div id="standard_metrics_graph" style="width: 850px; height: 400px; padding-bottom: 75px"></div>
+      </div>
     </div>
 
   <script>
     $('#sidebar_button').click(function () {
       $('.ui.sidebar').sidebar('toggle');
     })
+  </script>
+  <script>
+    var standard_metrics_chart = echarts.init(document.getElementById('standard_metrics_graph'), 'white', {
+      renderer: 'canvas'
+    })
+
+    $(
+      function() {
+        fetchGraphData(standard_metrics_chart, "http://127.0.0.1:5000/standardMetrics");
+      }
+    );
+
+    function fetchGraphData(chart, link) {
+      $.ajax({
+        type: "GET",
+        url: link,
+        dataType: "json",
+        success: function (result) {
+          chart.setOption(result);
+        }
+      });
+    }
   </script>
 
 

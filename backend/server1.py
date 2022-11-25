@@ -8,7 +8,7 @@ JSON_COLLAB_ISSUES = "./collabIssues"
 JSON_PULL = "backend/pullRequests"
 JSON_ISSUES = "backend/issues"
 JSON_COMMITS = "backend/commits"
-JSON_STANDARD = "./standardMetrics"
+JSON_STANDARD = "backend/standardMetrics"
 
 # user = input('Please input the user name')
 # repo = input('Please input the repo name')

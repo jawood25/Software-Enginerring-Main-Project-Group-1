@@ -40,7 +40,6 @@ def line_base_issues() -> Line:
                 closed_issues.append(amount_closed)
                 create_times.append(open_time)
 
-
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(create_times)
@@ -48,9 +47,10 @@ def line_base_issues() -> Line:
                    itemstyle_opts=opts.ItemStyleOpts(color="#0000FF"))
         .add_yaxis("Currently Closed Issues", closed_issues, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#FF0000"))
-
+        .set_global_opts(title_opts=opts.TitleOpts(title="Issues"))
     )
     return l
+
 
 def line_base_pull_requests() -> Line:
     with open(f'{backend.server1.JSON_PULL}.json', 'r') as f:
@@ -83,6 +83,7 @@ def line_base_pull_requests() -> Line:
                    itemstyle_opts=opts.ItemStyleOpts(color="#00FF00"))
         .add_yaxis("Currently Closed Pull Requests", closed_pull_requests, is_smooth=True,
                    itemstyle_opts=opts.ItemStyleOpts(color="#A020F0"))
+        .set_global_opts(title_opts=opts.TitleOpts(title="Pull Requests"))
     )
     return l
 
@@ -115,8 +116,26 @@ def bar_base_commits() -> Bar:
                 is_show=True,
                 range_start=0,
                 range_end=20
-            )
+            ),
+            title_opts=opts.TitleOpts(title="Commits")
         )
+    )
+    return b
+
+
+def bar_base_standard_metrics() -> Bar:
+    with open(f'{backend.server1.JSON_STANDARD}.json', 'r') as f:
+        data = json.loads(f.read())
+        metrics = [data['0']['Number of commits: '], data['0']['Number of pull requests:'], data['0']['Number of issues raised']]
+        titles = ["Commits", "Pull Requests", "Issues Raised"]
+
+    b = (
+        Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
+        .add_xaxis(titles)
+        .add_yaxis("Standard Metrics", metrics, category_gap='10%',
+                   itemstyle_opts=opts.ItemStyleOpts(color="#FF0000"))
+        .reversal_axis()
+        .set_global_opts(title_opts=opts.TitleOpts(title="Standard Metrics"))
     )
     return b
 
@@ -132,6 +151,7 @@ def get_issues_stat_data():
     l = line_base_issues()
     return l.dump_options_with_quotes()
 
+
 @app.route("/pullRequests")
 def get_pull_requests_stat_data():
     l = line_base_pull_requests()
@@ -142,12 +162,22 @@ def get_pull_requests_stat_data():
 def home():
     return render_template("home.html")
 
+
 @app.route("/standard_metrics")
 def standard_metrics():
     return render_template("standardMetrics.html")
-@app.route("/productivityMeasurements")
+
+
+@app.route("/standardMetrics")
+def standard_metrics_graph():
+    sb = bar_base_standard_metrics()
+    return sb.dump_options_with_quotes()
+
+
+@app.route("/productivity_measurements")
 def main():
     return render_template("main.html")
+
 
 @app.route("/about")
 def about():

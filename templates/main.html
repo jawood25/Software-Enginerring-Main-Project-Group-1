@@ -84,11 +84,17 @@
       <a class="item", href="/standard_metrics">
         Standard Metrics
       </a>
-      <a class="item", href="/productivityMeasurements">
+      <a class="item", href="/productivity_measurements">
         Productivity Measurements
       </a>
       <a class="item", href="/about">
         About
+      </a>
+      <a class="item", href="https://youtu.be/NdfTibIR6XY">
+         Video Demo
+      </a>
+      <a class="item" href="https://github.com/jawood25/Software-Enginerring-Main-Project-Group-1">
+        Github Repository
       </a>
 
     </div>
@@ -102,7 +108,6 @@
 
       <div class="graph-page-title-container" style="padding-top: 40px; padding-left: 38%; width: 75%" >
         <h1 class="ui header">Productivity Measurements</h1>
-        <h5 class="ui header">Video embed or link below here</h5>
       </div>
 
       <div class="graph-page-paragraph-container1" style="padding-top: 40px; padding-left: 27%; width: 75%" >
@@ -174,7 +179,7 @@
         fetchGraphData(contributor_chart, "http://127.0.0.1:5000/contributors");
         fetchGraphData(issue_chart, "http://127.0.0.1:5000/issues");
         fetchGraphData(pull_request_chart, "http://127.0.0.1:5000/pullRequests");
-       }
+      }
     );
 
     function fetchGraphData(chart, link) {
