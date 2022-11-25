@@ -176,9 +176,9 @@
 
     $(
       function () {
-        fetchGraphData(contributor_chart, "http://127.0.0.1:5000/contributors");
-        fetchGraphData(issue_chart, "http://127.0.0.1:5000/issues");
-        fetchGraphData(pull_request_chart, "http://127.0.0.1:5000/pullRequests");
+        fetchGraphData(contributor_chart, "/contributors");
+        fetchGraphData(issue_chart, "/issues");
+        fetchGraphData(pull_request_chart, "/pullRequests");
       }
     );
 
