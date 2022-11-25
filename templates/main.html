@@ -19,60 +19,6 @@
       }
     </style>
 
-    <!--<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
-    <link rel="stylesheet" type="text/css" href = "{{url_for('static',filename='./styles/style.css')}}" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts-gl/2.0.8/echarts-gl.min.js"></script>
-
-    <style>
-      .container {
-        display: grid;
-        padding-left: 150px;
-        grid-template-columns: 500px 600px 500px;
-        grid-auto-flow: row dense;
-        align-items: center;
-        justify-items: center;
-      }
-
-      .container > div {
-        margin: 20px;
-      }
-
-      .header{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 80px;
-        display: block;
-        background-color: rgb(0, 0, 0);
-      }
-      .inner_header{
-        width: 1000px;
-        height: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-
-      .logo_container{
-        height: 100%;
-        display: table;
-        float: left;
-      }
-
-      .logo_container h1{
-        color: white;
-        height: 100%;
-        display: table-cell;
-        vertical-align: middle;
-        font-family: 'sans-serif';
-        font-size: 32px;
-        font-weight: 200;
-      }
-
-    </style>
-    -->
-
 
   </head>
 
@@ -120,7 +66,7 @@
       <div class="graph-page-paragraph-container2" style="padding-top: 45px; padding-left: 27%; width: 75%" >
         <h2 class="ui header">Our rationale:</h2>
         <h4 class="ui header">We believe the true measure of team performance is the time it takes to reach a
-          predetermined goal. (Abi Noda, 2019). Using this hypothesis we measure the time between a pull request being
+          predetermined goal. (Noda, 2019)*. Using this hypothesis we measure the time between a pull request being
           opened and closed, the number of pull requests being closed, the number of issues being closed and the time in
           which those issues are being closed. We are also prototyping how many unit tests fail in a build and how long
           it takes to fix those failures (Alperowitz et al., 2016).
@@ -148,14 +94,10 @@
       </div>
     </div>
 
-    <!--<div class="header">
-      <div class="inner_header">
-        <div class="logo_container">
-          <h1>Contributor Performance Measurer</h1>
-        </div>
+    <div class="graph-page-paragraph-container4" style="padding-top: 10px; padding-left: 27%; width: 75%" >
+        <h5 class="ui header">* = All bibliography can be found in the README of our GitHub repository.</h5>
       </div>
-    </div>
-    -->
+
   <script>
     $('#sidebar_button').click(function () {
       $('.ui.sidebar').sidebar('toggle');
