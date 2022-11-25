@@ -1,4 +1,3 @@
-pip install psutil
 pip install flask
 pip install requests
 pip install pyecharts
