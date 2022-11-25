@@ -5,10 +5,10 @@ import json
 app = Flask(__name__)  # creating instance of the flask app
 
 JSON_COLLAB_ISSUES = "./collabIssues"
-JSON_PULL = "./pullRequests"
-JSON_ISSUES = "./issues"
-JSON_COMMITS = "./commits"
-JSON_STANDARD = "./standardMetrics"
+JSON_PULL = "backend/pullRequests"
+JSON_ISSUES = "backend/issues"
+JSON_COMMITS = "backend/commits"
+JSON_STANDARD = "backend/standardMetrics"
 
 # user = input('Please input the user name')
 # repo = input('Please input the repo name')
@@ -24,7 +24,7 @@ dict_of_standard_metrics = {}
 sha_list = []
 
 # headers = {"Authorization" : "token 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"}
-with open("token", 'r') as f:
+with open("backend/token", 'r') as f:
     token = f.read()
 
 headers = {
@@ -150,10 +150,11 @@ def collaberatedIssues(url):
     except requests.RequestException as reqEx:
         print(reqEx)
 
+
 def standardMetrics(collabFromFunction):
-        dict_of_standard_metrics[0] = {"Number of commits: ": len(dict_of_commits),
-                                       "Number of pull requests:": len(dict_of_pull_requests)
-            , "Number of issues raised": len(dict_of_issues), "Number of collaborated issues": collabFromFunction}
+    dict_of_standard_metrics[0] = {"Number of commits: ": len(dict_of_commits),
+                                   "Number of pull requests:": len(dict_of_pull_requests)
+        , "Number of issues raised": len(dict_of_issues), "Number of collaborated issues": collabFromFunction}
 
 
 def write():
@@ -166,7 +167,7 @@ def write():
     with open(f'{JSON_ISSUES}.json', 'w') as file:
         json.dump(dict_of_issues, file, indent=3)
 
-    #with open(f'{JSON_COMMITS}.json', 'w') as file:
+    # with open(f'{JSON_COMMITS}.json', 'w') as file:
     #    json.dump(dict_of_commits, file, indent=3)
 
     with open(f'{JSON_STANDARD}.json', 'w') as file:
@@ -177,7 +178,7 @@ if __name__ == '__main__':
     pull_requests(url)
     issues(url)
     collab = collaberatedIssues(url)
-    #commits(url)
+    # commits(url)
     standardMetrics(collab)
     write()
     # app.run(debug=True)

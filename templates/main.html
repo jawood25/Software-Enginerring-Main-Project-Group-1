@@ -78,14 +78,23 @@
 
   <body>
     <div class="ui sidebar inverted vertical menu">
-      <a class="item">
+      <a class="item", href="/">
         Home
       </a>
-      <a class="item">
+      <a class="item", href="/standard_metrics">
+        Standard Metrics
+      </a>
+      <a class="item", href="/productivity_measurements">
         Productivity Measurements
       </a>
-      <a class="item">
+      <a class="item", href="/about">
         About
+      </a>
+      <a class="item", href="https://youtu.be/NdfTibIR6XY">
+         Video Demo
+      </a>
+      <a class="item" href="https://github.com/jawood25/Software-Enginerring-Main-Project-Group-1">
+        Github Repository
       </a>
 
     </div>
@@ -96,8 +105,46 @@
           Menu
         </button>
       </div>
-      <div class="container" style="padding-top: 30px;">
-        <div id="contributor_graph" style="width: 800px; height: 300px;"></div>
+
+      <div class="graph-page-title-container" style="padding-top: 40px; padding-left: 38%; width: 75%" >
+        <h1 class="ui header">Productivity Measurements</h1>
+      </div>
+
+      <div class="graph-page-paragraph-container1" style="padding-top: 40px; padding-left: 27%; width: 75%" >
+        <h2 class="ui header">‘Not everything that can be counted … counts’ - Albert Einstein</h2>
+        <h4 class="ui header">Although we offer insights to individual performance in Standard Metrics, we believe they
+          belong in the ‘Flawed Five’.
+          (https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics)</h4>
+      </div>
+
+      <div class="graph-page-paragraph-container2" style="padding-top: 45px; padding-left: 27%; width: 75%" >
+        <h2 class="ui header">Our rationale:</h2>
+        <h4 class="ui header">We believe the true measure of team performance is the time it takes to reach a
+          predetermined goal. (Abi Noda, 2019). Using this hypothesis we measure the time between a pull request being
+          opened and closed, the number of pull requests being closed, the number of issues being closed and the time in
+          which those issues are being closed. We are also prototyping how many unit tests fail in a build and how long
+          it takes to fix those failures (Alperowitz et al., 2016).
+
+          </h4>
+      </div>
+      <div class="graph-page-paragraph-container3" style="padding-top: 10px; padding-left: 27%; width: 75%" >
+        <h4 class="ui header">As above, productivity is more importantly a measure of time rather than output. The ‘
+          Flawed Five’ can easily be manipulated whereas the metrics below cannot.</h4>
+      </div>
+      <div class="graph-page-paragraph-container4" style="padding-top: 10px; padding-left: 27%; width: 75%" >
+        <h4 class="ui header">We also are in the early development stages of measuring SCRUM productivity,
+          we measure our own below. This will look to build upon the research carried out by Cardozo et al. (2010) and
+          determine whether the agile development and SCRUM meeting techniques are productive in your organisation.</h4>
+      </div>
+
+      <div class="graph-page-graph-title-container" style="padding-top: 65px; padding-left: 38%; width: 75%" >
+        <h1 class="ui header">Our Productivity Measurements</h1>
+      </div>
+
+      <div class="container" style="padding-top: 40px; padding-left: 24%">
+        <div id="contributor_graph" style="width: 800px; height: 400px; padding-bottom: 75px"></div>
+        <div id="issue_graph" style="width: 800px; height: 420px; padding-bottom: 55px"></div>
+        <div id="pull_request_graph" style="width: 800px; height: 400px; padding-bottom: 55px"></div>
       </div>
     </div>
 
@@ -119,10 +166,20 @@
       renderer: 'canvas'
     })
 
+    var issue_chart = echarts.init(document.getElementById('issue_graph'), 'white', {
+      renderer: 'canvas'
+    })
+
+    var pull_request_chart = echarts.init(document.getElementById('pull_request_graph'), 'white', {
+      renderer: 'canvas'
+    })
+
     $(
       function () {
         fetchGraphData(contributor_chart, "http://127.0.0.1:5000/contributors");
-       }
+        fetchGraphData(issue_chart, "http://127.0.0.1:5000/issues");
+        fetchGraphData(pull_request_chart, "http://127.0.0.1:5000/pullRequests");
+      }
     );
 
     function fetchGraphData(chart, link) {
