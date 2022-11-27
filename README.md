@@ -3,8 +3,11 @@
 ## Running instructions
 
 Open a terminal with this repository open and type the commands:
-- pip install -r requirements.txt
-- python -m app
+```Python
+pip install -r requirements.txt
+flask run
+```
+and open http://localhost:5000/ in browser
 
 ## Productivity Measurer
 
