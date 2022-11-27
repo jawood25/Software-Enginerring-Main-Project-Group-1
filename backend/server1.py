@@ -5,10 +5,10 @@ import json
 # app = Flask(__name__)  # creating instance of the flask app
 
 JSON_COLLAB_ISSUES = "./collabIssues"
-JSON_PULL = "backend/pullRequests"
-JSON_ISSUES = "backend/issues"
-JSON_COMMITS = "backend/commits"
-JSON_STANDARD = "backend/standardMetrics"
+JSON_PULL = "./pullRequests"
+JSON_ISSUES = "./issues"
+JSON_COMMITS = "./commits"
+JSON_STANDARD = "./standardMetrics"
 
 # user = input('Please input the user name')
 # repo = input('Please input the repo name')
@@ -23,10 +23,12 @@ dict_of_collab_issues = {}
 dict_of_standard_metrics = {}
 sha_list = []
 
+with open("token",'r') as f:
+    token=f.read()
 
 headers = {
     'Accept': 'application/vnd.github+json',
-    'Authorization': 'Token {token}',
+    'Authorization': f'Bearer {token}',
 }
 
 
@@ -169,12 +171,14 @@ def write():
     with open(f'{JSON_ISSUES}.json', 'w') as file:
         json.dump(dict_of_issues, file, indent=3)
 
+    with open(f'{JSON_STANDARD}.json', 'w') as file:
+        json.dump(dict_of_standard_metrics, file, indent=3)
+
     with open(f'{JSON_COMMITS}.json', 'w') as file:
         json.dump(dict_of_commits, file, indent=3)
 
 
-    with open(f'{JSON_STANDARD}.json', 'w') as file:
-        json.dump(dict_of_standard_metrics, file, indent=3)
+
 
 
 if __name__ == '__main__':
