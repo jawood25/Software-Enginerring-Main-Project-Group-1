@@ -15,6 +15,7 @@ jobs:
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
@@ -29,6 +30,8 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
         continue-on-error: true
       - name: Test with pytest
+        env: 
+          token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pytest backend/unitTests.py
         
