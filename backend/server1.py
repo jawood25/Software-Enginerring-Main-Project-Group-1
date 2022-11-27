@@ -1,6 +1,8 @@
 from flask import Flask
 import requests
 import json
+import os
+
 
 app = Flask(__name__)  # creating instance of the flask app
 
@@ -24,8 +26,7 @@ dict_of_standard_metrics = {}
 sha_list = []
 
 # headers = {"Authorization" : "token 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"}
-with open("backend/token", 'r') as f:
-    token = f.read()
+token = os.getenv("GITHUB_TOKEN")
 
 headers = {
     'Accept': 'application/vnd.github+json',
