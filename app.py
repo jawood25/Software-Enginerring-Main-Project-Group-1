@@ -96,12 +96,13 @@ def bar_base_commits() -> Bar:
         deletions = []
 
         for item in data:
-            contrib = data[item]['author:']
-            adds = data[item]['total_change']['additions']
-            deletes = data[item]['total_change']['deletions']
-            contributors.append(contrib)
-            additions.append(adds)
-            deletions.append(-deletes)
+            if len(data[item]) > 0:
+                contrib = data[item]['author:']
+                adds = data[item]['total_change']['additions']
+                deletes = data[item]['total_change']['deletions']
+                contributors.append(contrib)
+                additions.append(adds)
+                deletions.append(-deletes)
     b = (
         Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(contributors)
