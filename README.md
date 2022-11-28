@@ -2,6 +2,10 @@
 
 ## Running instructions
 
+You can find our app [here.](https://group1-performance-measurer.herokuapp.com/)
+
+*or*
+
 Open a terminal with this repository open and type the commands:
 ```Python
 pip install -r requirements.txt
@@ -13,6 +17,15 @@ and open http://localhost:5000/ in browser
 
 We set out to measure just how productive teams were based off their repository statistics. 
 We outline our rationale within the website.
+
+## Authors
+- [Elliot Lyons](https://github.com/elliot-lyons)
+- [Jason Wood](https://github.com/jawood25)
+- [Joe Hand](https://github.com/JDABH)
+- [Shi Su](https://github.com/JackySu)
+- [Haojun Xing](https://github.com/Haojun6)
+- [Cianna MacMahon](https://github.com/ciannamacmahon)
+- [Aritro De](https://github.com/AritroDe)
 
 ## Bibliography
 
