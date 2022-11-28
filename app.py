@@ -27,7 +27,7 @@ def line_base_issues() -> Line:
         previous_time = ""
 
         for item in data:
-            if len(data[item] > 0):
+            if len(data[item]) > 0:
                 open_time = data[item]['create_time:'][0:10]
                 if open_time != previous_time:
                     previous_time = open_time
