@@ -27,18 +27,19 @@ def line_base_issues() -> Line:
         previous_time = ""
 
         for item in data:
-            open_time = data[item]['create_time:'][0:10]
-            if open_time != previous_time:
-                previous_time = open_time
-                if data[item]['state'] == "open":
-                    amount_open += 1
+            if len(data[item] > 0):
+                open_time = data[item]['create_time:'][0:10]
+                if open_time != previous_time:
+                    previous_time = open_time
+                    if data[item]['state'] == "open":
+                        amount_open += 1
 
-                if data[item]['state'] == "closed":
-                    amount_closed += 1
+                    if data[item]['state'] == "closed":
+                        amount_closed += 1
 
-                open_issues.append(amount_open)
-                closed_issues.append(amount_closed)
-                create_times.append(open_time)
+                    open_issues.append(amount_open)
+                    closed_issues.append(amount_closed)
+                    create_times.append(open_time)
 
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
@@ -63,18 +64,19 @@ def line_base_pull_requests() -> Line:
         previous_time = ""
 
         for item in data:
-            open_time = data[item]['create_time:'][0:10]
-            if open_time != previous_time:
-                previous_time = open_time
-                if data[item]['state'] == "open":
-                    amount_open += 1
+            if len(data[item]) > 0:
+                open_time = data[item]['create_time:'][0:10]
+                if open_time != previous_time:
+                    previous_time = open_time
+                    if data[item]['state'] == "open":
+                        amount_open += 1
 
-                if data[item]['state'] == "closed":
-                    amount_closed += 1
+                    if data[item]['state'] == "closed":
+                        amount_closed += 1
 
-                open_pull_requests.append(amount_open)
-                closed_pull_requests.append(amount_closed)
-                create_times.append(open_time)
+                    open_pull_requests.append(amount_open)
+                    closed_pull_requests.append(amount_closed)
+                    create_times.append(open_time)
 
     l = (
         Line(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
@@ -96,12 +98,13 @@ def bar_base_commits() -> Bar:
         deletions = []
 
         for item in data:
-            contrib = data[item]['author:']
-            adds = data[item]['total_change']['additions']
-            deletes = data[item]['total_change']['deletions']
-            contributors.append(contrib)
-            additions.append(adds)
-            deletions.append(-deletes)
+            if len(data[item]) > 0:
+                contrib = data[item]['author:']
+                adds = data[item]['total_change']['additions']
+                deletes = data[item]['total_change']['deletions']
+                contributors.append(contrib)
+                additions.append(adds)
+                deletions.append(-deletes)
     b = (
         Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
         .add_xaxis(contributors)
@@ -126,7 +129,8 @@ def bar_base_commits() -> Bar:
 def bar_base_standard_metrics() -> Bar:
     with open(f'{backend.server1.JSON_STANDARD}.json', 'r') as f:
         data = json.loads(f.read())
-        metrics = [data['0']['Number of commits: '], data['0']['Number of pull requests:'], data['0']['Number of issues raised']]
+        metrics = [data['0']['Number of commits: '], data['0']['Number of pull requests:'],
+                   data['0']['Number of issues raised']]
         titles = ["Commits", "Pull Requests", "Issues Raised"]
 
     b = (
