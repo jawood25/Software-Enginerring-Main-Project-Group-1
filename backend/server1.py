@@ -25,7 +25,6 @@ dict_of_collab_issues = {}
 dict_of_standard_metrics = {}
 sha_list = []
 
-# headers = {"Authorization" : "token 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"}
 token = os.getenv("GITHUB_TOKEN")
 
 headers = {
@@ -52,6 +51,11 @@ def commits(url):
         for sha in sha_list:
             commit_url = url + 'commits/' + sha
             response = requests.get(commit_url, headers=headers)
+            if response.status_code != 200:                                 # check validation
+                response = requests.get(commit_url, headers=headers)
+                if response.status_code != 200:                             # double check validation
+                    dict_of_commits[sha_list.index(sha)+1] = {}
+                    continue
             data = json.loads(response.content)
             author = data['commit']['author']['name']
             date = data['commit']['author']['date']
@@ -168,8 +172,8 @@ def write():
     with open(f'{JSON_ISSUES}.json', 'w') as file:
         json.dump(dict_of_issues, file, indent=3)
 
-    # with open(f'{JSON_COMMITS}.json', 'w') as file:
-    #    json.dump(dict_of_commits, file, indent=3)
+    with open(f'{JSON_COMMITS}.json', 'w') as file:
+        json.dump(dict_of_commits, file, indent=3)
 
     with open(f'{JSON_STANDARD}.json', 'w') as file:
         json.dump(dict_of_standard_metrics, file, indent=3)
@@ -179,7 +183,7 @@ if __name__ == '__main__':
     pull_requests(url)
     issues(url)
     collab = collaberatedIssues(url)
-    # commits(url)
+    commits(url)
     standardMetrics(collab)
     write()
     # app.run(debug=True)
