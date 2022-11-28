@@ -3,6 +3,9 @@ import requests
 import unittest
 import pytest
 
+[pytest]
+filterwarnings = FileNotFoundError
+
 def test_dict_of_issues_not_null():
     issues_list = dict_of_issues
     assert issues_list != []
@@ -21,4 +24,3 @@ def test_dict_of_pull_requests_not_null():
 def test_dict_of_collab_issues_not_null():
     collab_issues_list = dict_of_collab_issues
     assert collab_issues_list != []
-

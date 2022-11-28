@@ -4,7 +4,7 @@ import json
 import os
 
 
-# app = Flask(__name__)  # creating instance of the flask app
+app = Flask(__name__)  # creating instance of the flask app
 
 JSON_COLLAB_ISSUES = "./collabIssues"
 JSON_PULL = "backend/pullRequests"
@@ -29,7 +29,7 @@ token = os.getenv("GITHUB_TOKEN")
 
 headers = {
     'Accept': 'application/vnd.github+json',
-    'Authorization': 'Token {token}',
+    'Authorization': f'Bearer {token}',
 }
 
 
@@ -63,11 +63,11 @@ def commits(url):
             if 'files' in data:
                 file_dict = {}
                 for file in data['files']:
-                    filename = file['filename']
+                    filename = file['filename'].split('/')[-1]
                     additions = file['additions']
                     deletions = file['deletions']
                     file_dict[filename] = {'additions': additions, 'deletions': deletions}
-            dict_of_commits[sha_list.index(sha)+1] = {'author:': author, 'date:': date, 'total_change': total_change,
+            dict_of_commits[sha_list.index(sha) + 1] = {'author:': author, 'date:': date, 'total_change': total_change,
                                                         'files': file_dict}
     except ValueError as ve:
         print("Invalid JSON returned")
@@ -175,7 +175,6 @@ def write():
     with open(f'{JSON_COMMITS}.json', 'w') as file:
         json.dump(dict_of_commits, file, indent=3)
 
-
     with open(f'{JSON_STANDARD}.json', 'w') as file:
         json.dump(dict_of_standard_metrics, file, indent=3)
 
@@ -187,4 +186,4 @@ if __name__ == '__main__':
     commits(url)
     standardMetrics(collab)
     write()
-    #app.run(debug=True)
+    # app.run(debug=True)
