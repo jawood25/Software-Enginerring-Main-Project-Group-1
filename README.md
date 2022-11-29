@@ -26,6 +26,7 @@ We outline our rationale within the website.
 - [Haojun Xing](https://github.com/Haojun6)
 - [Cianna MacMahon](https://github.com/ciannamacmahon)
 - [Aritro De](https://github.com/AritroDe)
+- [Brian Bredican](https://github.com/BrianGitHub1)
 
 ## Bibliography
 
